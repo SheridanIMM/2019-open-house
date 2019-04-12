@@ -1,5 +1,5 @@
 <?php
-// include_once('db.php');
+include_once('db.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,6 +22,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- INTERNAL LINKS -->
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="js/main.js"></script>
     <script src="js/particle.js"></script>
