@@ -34,6 +34,7 @@ include_once('process-getAll.php');
     <ul class="text-center">
     <?php foreach ($results as $result) { ?>
         <li class="student-outline"><?= $result["name"] ?></li>
+        <li class="student-keyword">#<?= $result["keyword1"]  ?> #<?= $result["keyword2"]  ?> #<?= $result["keyword3"]  ?> #<?= $result["keyword4"]  ?></li>
     <?php } ?>
     </ul>
 </div>

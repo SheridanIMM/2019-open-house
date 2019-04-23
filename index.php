@@ -46,18 +46,20 @@ include_once('db.php');
     <header>
         <!-- Put your header here -->
     </header>
-
+  <div id="particles-js"></div>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <?php
             include_once('nav.php');
         ?>
     </nav>
-    <div id="particles-js"></div>
+
 
     <main>
+      <!-- <div class="body-particles"> -->
         <?php
             include_once('content.php');
         ?>
+      <!-- </div> -->
     </main>
     <!-- SCRIPT -->
     <script src="js/particle.js"></script>
