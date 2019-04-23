@@ -22,8 +22,8 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5;
-    color: #D6D6D6;
+    line-height: 1.69;
+    color: #d8d8d8;
     text-align: left;
     background-color: #000020;
 }
@@ -133,7 +133,7 @@ p {
     border-color: #d8d8d8;
 }
 
-li:hover .nav-link::after {
+li .nav-link:hover:after, .nav-link:focus::after {
     content: '';
     padding-left: 18px;
     width: 54px;
@@ -144,15 +144,15 @@ li:hover .nav-link::after {
     color: #707070;
 }
 
-li:hover:first-of-type .nav-link::after {
+li:first-of-type .nav-link:hover::after, li:first-of-type .nav-link:focus::after, li:first-of-type .nav-link:visited::after {
     content: 'Home';
 }
 
-li:hover:nth-of-type(2) .nav-link::after {
+li:nth-child(2) .nav-link:hover::after, li:nth-child(2) .nav-link:focus::after, li:nth-child(2) .nav-link:visited::after {
     content: 'Student work';
 }
 
-li:hover:last-of-type .nav-link::after  {
+li:last-of-type .nav-link:hover::after, li:last-of-type .nav-link:focus::after, li:last-of-type .nav-link:visited::after {
     content: 'Location';
 }
 /*Nav Styling End*/
@@ -171,6 +171,9 @@ li:hover:last-of-type .nav-link::after  {
 }
 .student-list{
   position: relative; /* allows content to show on particle background */
+  text-transform: uppercase; 
+  font-weight: 500; 
+  font-size: 4.5625rem;
 }
 .student-details{
   position: relative;/* allows content to show on particle background */
@@ -185,7 +188,8 @@ li:hover:last-of-type .nav-link::after  {
 }
 .student-keyword{
   color: #707070;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.2; 
 }
 .student-outline:hover{/*On hover fills in letters and increases size*/
   color: #000020;
