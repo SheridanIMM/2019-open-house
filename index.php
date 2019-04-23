@@ -46,16 +46,16 @@ include_once('db.php');
     <header>
         <!-- Put your header here -->
     </header>
-    
-    <nav>
-        <?php 
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <?php
             include_once('nav.php');
         ?>
     </nav>
     <div id="particles-js"></div>
 
     <main>
-        <?php 
+        <?php
             include_once('content.php');
         ?>
     </main>

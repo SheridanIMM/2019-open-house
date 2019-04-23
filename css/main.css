@@ -61,7 +61,7 @@ p {
 }
 
 /* NAVIGATION STYLING */
-.nav-link a {
+/* .nav-link a {
     color: black;
     text-decoration: none;
 }
@@ -72,7 +72,90 @@ p {
 }
 .nav-link a span {
     padding-left: 2rem;
+} */
+
+
+.navbar-toggler {
+    position: relative;
+    right: 0;
+    left: 90%
 }
+
+.navbar-collapse.show {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 100%;
+  width: 0;
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0); /* Black fallback color */
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+.navbar-collapse ul li {
+    list-style: none;
+    color: #fafafa;
+    margin-top: 15px;
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+.navbart .closeBtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  width: 22.1px;
+  height: 19.7px;
+  border: solid 1px #707070;
+}
+
+.nav-link {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.nav-link i {
+    border: 3px solid #fafafa;
+    border-radius: 50%;
+    padding: 7.9px 3px;
+    height: 39.9px;
+    width: 39.9px;
+}
+
+.fa, .fas {
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: #d8d8d8;
+    border-color: #d8d8d8;
+}
+
+li:hover .nav-link::after {
+    content: '';
+    padding-left: 18px;
+    width: 54px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #707070;
+}
+
+li:hover:first-of-type .nav-link::after {
+    content: 'Home';
+}
+
+li:hover:nth-of-type(2) .nav-link::after {
+    content: 'Student work';
+}
+
+li:hover:last-of-type .nav-link::after  {
+    content: 'Location';
+}
+/*Nav Styling End*/
 
 /* MAIN CONTENT STYLING */
 /* in development, feel free to make changes */
