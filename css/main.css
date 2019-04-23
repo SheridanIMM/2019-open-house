@@ -169,6 +169,20 @@ li:hover:last-of-type .nav-link::after  {
     width: 20%;
     height: auto;
 }
+.student-outline{
+  color: white;
+  -webkit-text-fill-color: #000020; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  font-size: 5rem;
+}
+.student-outline:hover{
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color:black;
+  font-size: 5rem;
+}
 
 /* PARTICLE STYLING */
 #particles-js {

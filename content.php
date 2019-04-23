@@ -1,4 +1,4 @@
-<?php 
+<?php
 include_once('process-getAll.php');
 ?>
 <!-- Put your main content here -->
@@ -31,7 +31,7 @@ include_once('process-getAll.php');
 
 <div class="student-list">
 <h2 class="hidden">Student list</h2> <!-- please put class hidden with font-size: 0 later on to hide the title -->
-    <ul class="text-center">
+    <ul class="text-center student-outline">
     <?php foreach ($results as $result) { ?>
         <li><?= $result["name"] ?></li>
     <?php } ?>
