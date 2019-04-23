@@ -169,19 +169,19 @@ li:hover:last-of-type .nav-link::after  {
     width: 20%;
     height: auto;
 }
-.student-outline{
+.student-outline{/*Gives student list the outline effect*/
   color: white;
   -webkit-text-fill-color: #000020; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
   font-size: 5rem;
 }
-.student-outline:hover{
-  color: black;
+.student-outline:hover{/*On hover fills in letters*/
+  color: #000020;
   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color:black;
-  font-size: 5rem;
+  -webkit-text-stroke-color:#000020;
+  font-size: 6rem;
 }
 
 /* PARTICLE STYLING */
