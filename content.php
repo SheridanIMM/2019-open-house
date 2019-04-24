@@ -17,10 +17,10 @@ include_once('process-getAll.php');
 <div class="container">
     <div class="row">
         <div class="col-lg-4 col-sm-12">
-            <p><i class="fas fa-graduation-cap icon"></i>Sheridan College</p>
-            <p><i class="fas fa-calendar-alt icon"></i>May 9th from 6 - 9 PM</p>
-            <p><i class="fas fa-map-marker-alt icon"></i>Hosted by Jam3</p>
-            <p>325 Adelaide Street West, Toronto</p>
+            <p class="details"><i class="fas fa-graduation-cap icon"></i>Sheridan College</p>
+            <p class="details"><i class="fas fa-calendar-alt icon"></i>May 9th from 6 - 9 PM</p>
+            <p class="details"><i class="fas fa-map-marker-alt icon"></i>Hosted by Jam3</p>
+            <p class="details">325 Adelaide Street West, Toronto</p>
         </div>
         <div class="col-lg-8 col-sm-12">
             <h3>What is IMM?</h3>
@@ -34,12 +34,12 @@ include_once('process-getAll.php');
     <ul class="text-center">
     <?php foreach ($results as $result) { ?>
         <li class="student-outline"><?= $result["name"] ?></li>
-        <li class="student-keyword">#<?= $result["keyword1"]  ?> #<?= $result["keyword2"]  ?> #<?= $result["keyword3"]  ?> #<?= $result["keyword4"]  ?></li>
+        <li class="student-keyword"><span class="student-keyword-mobile">#<?= $result["keyword1"]?></span class="student-keyword-mobile"> <span class="student-keyword-mobile">#<?= $result["keyword2"]?></span> <span class="student-keyword-mobile">#<?= $result["keyword3"]?></span> <span class="student-keyword-mobile">#<?= $result["keyword4"]?></span></li>
     <?php } ?>
     </ul>
 </div>
 
-<div class="student-details">
+<!-- <div class="student-details">
     <?php foreach ($results as $result) { ?>
         <div class="student temp-border">
             <img src="img/<?= $result["images"] ?>" alt="<?= $result["name"] ?> profile image">
@@ -54,4 +54,4 @@ include_once('process-getAll.php');
             <p><?= $result["description"] ?></p>
         </div>
     <?php } ?>
-</div>
+</div> -->

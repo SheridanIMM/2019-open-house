@@ -47,7 +47,7 @@ include_once('db.php');
         <!-- Put your header here -->
     </header>
   <div id="particles-js"></div>
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark">
         <?php
             include_once('nav.php');
         ?>
@@ -55,11 +55,11 @@ include_once('db.php');
 
 
     <main>
-      <!-- <div class="body-particles"> -->
+      <div class="body-particles">
         <?php
             include_once('content.php');
         ?>
-      <!-- </div> -->
+      </div>
     </main>
     <!-- SCRIPT -->
     <script src="js/particle.js"></script>
