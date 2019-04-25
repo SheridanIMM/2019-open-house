@@ -6,9 +6,11 @@
     box-sizing: border-box;
 }
 
- html {
+html {
     font-family: sans-serif;
     line-height: 1.15;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -40,6 +42,10 @@ p {
 }
 .hidden {
     font-size: 0;
+}
+/* Ensures the front page doesn't contain student name */
+.landing-screen {
+    height: 100vh;
 }
 .title {
     font-size: 5rem;
@@ -99,7 +105,11 @@ p {
   background-color: rgb(0,0,0); /* Black fallback color */
   background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
   overflow-x: hidden; /* Disable horizontal scroll */
-  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  /*transition: 0.5s;  0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
 
 .navbar-collapse ul li {
@@ -115,17 +125,17 @@ p {
 }
 
 .navbar-tags{
-  display: inline-block;
+    display: inline-block;
 }
 
 .navbar-toggler .closeBtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-  width: 22.1px;
-  height: 19.7px;
-  border: solid 1px #707070;
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    width: 22.1px;
+    height: 19.7px;
+    border: solid 1px #707070;
 }
 
 .nav-link {
@@ -146,10 +156,6 @@ p {
     text-align: center;
 }
 
-/* .nav-link:hover {
-    color: #d8d8d8;
-    border-color: #d8d8d8;
-} */
 .nav-link span {
     padding-left: 18px;
     width: 54px;

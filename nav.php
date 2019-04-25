@@ -17,7 +17,7 @@
             </a>
         </li>
         <li class="">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="#location">
                 <i class="fas fa-map-marker-alt"></i><span class="navbar-tags"> Location<span>
             </a>
         </li>
