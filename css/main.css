@@ -110,8 +110,9 @@ p {
 }
 
 .navbar-collapse-tags-center{
-  display: inline-block;
-  text-align: left;
+    display: inline-block;
+    text-align: left;
+    width: 50%;
 }
 
 .navbar-tags{
@@ -176,9 +177,6 @@ li:last-of-type .nav-link:hover::after, li:last-of-type .nav-link:focus::after, 
 
 /* MAIN CONTENT STYLING */
 /* in development, feel free to make changes */
-.student-details {
-
-}
 .student {
     padding: 0.5rem 2%;
 }
@@ -187,21 +185,24 @@ li:last-of-type .nav-link:hover::after, li:last-of-type .nav-link:focus::after, 
     height: auto;
 }
 .student-list{
-  position: relative; /* allows content to show on particle background */
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 4.5625rem;
+    position: relative; /* allows content to show on particle background */
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 4.5625rem;
 }
 .student-details{
-  position: relative;/* allows content to show on particle background */
-
+    position: relative;/* allows content to show on particle background */
 }
 .student-outline{/*Gives student list the outline effect*/
-  color: #D6D6D6;
-  -webkit-text-fill-color: #000020; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #67677A;
-  font-size: 5rem;
+    color: #D6D6D6;
+    -webkit-text-fill-color: #000020; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #67677A;
+    font-size: 5rem;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 .student-keyword{
   color: #707070;
