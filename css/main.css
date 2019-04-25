@@ -84,7 +84,6 @@ p {
 
 .navbar-toggler {
     position: absolute;
-    right: 0;
     top: 1.5rem;
     left: 85%;
     z-index: 2;
@@ -108,6 +107,15 @@ p {
     color: #fafafa;
     margin-top: 15px;
     margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+.navbar-collapse-tags-center{
+  display: inline-block;
+  text-align: left;
+}
+
+.navbar-tags{
+  display: none;
 }
 
 .navbar-toggler .closeBtn {
@@ -200,6 +208,11 @@ li:last-of-type .nav-link:hover::after, li:last-of-type .nav-link:focus::after, 
   font-size: 1.25rem;
   line-height: 1.2;
 }
+
+.student-keyword-mobile{
+padding-right: 15px;
+text-align: left;
+}
 .student-outline:hover{/*On hover fills in letters and increases size*/
   color: #000020;
   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
@@ -247,6 +260,10 @@ particles-js {
   .details{
     font-size: 1rem;
   }
+  .navbar-tags{
+    display:inline;
+    padding: 0 15px;
+  }
 .student-outline{
   color:white;
   -webkit-text-fill-color: #67677A;
@@ -268,6 +285,7 @@ particles-js {
 
  }
 .student-keyword-mobile{
-
+/* padding: 0 15px; */
+text-align: left;
 }
  }

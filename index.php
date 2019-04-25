@@ -47,13 +47,11 @@ include_once('db.php');
         <!-- Put your header here -->
     </header>
     <div id="particles-js"></div>
-    <div id="nav">
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav id="nav" class="navbar sticky-top navbar-expand-lg navbar-dark">
         <?php
             include_once('nav.php');
         ?>
     </nav>
-    </div>
 
     <main>
       <div class="body-particles">
