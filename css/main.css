@@ -84,7 +84,7 @@ p {
 
 .navbar-toggler {
     position: absolute;
-    top: 1.5rem;
+    top: 1rem;
     left: 85%;
     z-index: 2;
 }
@@ -112,11 +112,10 @@ p {
 .navbar-collapse-tags-center{
     display: inline-block;
     text-align: left;
-    width: 50%;
 }
 
 .navbar-tags{
-  display: none;
+  display: inline-block;
 }
 
 .navbar-toggler .closeBtn {
@@ -130,48 +129,40 @@ p {
 }
 
 .nav-link {
-    color: #fafafa;
+    color: #d0d0d0;
     text-decoration: none;
 }
 
 .nav-link i {
-    border: 3px solid #fafafa;
+    border: 3px solid #d0d0d0;
     border-radius: 50%;
     padding: 7.9px 3px;
     height: 39.9px;
     width: 39.9px;
+    color: #d0d0d0;
 }
 
 .fa, .fas {
     text-align: center;
 }
 
-.nav-link:hover {
+/* .nav-link:hover {
     color: #d8d8d8;
     border-color: #d8d8d8;
-}
-
-li .nav-link:hover:after, .nav-link:focus::after {
-    content: '';
+} */
+.nav-link span {
     padding-left: 18px;
     width: 54px;
     height: 24px;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    color: #707070;
+    color: #f5f5f5;
 }
 
-li:first-of-type .nav-link:hover::after, li:first-of-type .nav-link:focus::after, li:first-of-type .nav-link:visited::after {
-    content: 'Home';
-}
-
-li:nth-child(2) .nav-link:hover::after, li:nth-child(2) .nav-link:focus::after, li:nth-child(2) .nav-link:visited::after {
-    content: 'Student work';
-}
-
-li:last-of-type .nav-link:hover::after, li:last-of-type .nav-link:focus::after, li:last-of-type .nav-link:visited::after {
-    content: 'Location';
+.navbar-tags {
+    display:inline;
+    padding: 0 15px;
 }
 /*Nav Styling End*/
 
@@ -184,42 +175,42 @@ li:last-of-type .nav-link:hover::after, li:last-of-type .nav-link:focus::after, 
     width: 20%;
     height: auto;
 }
+/* allows content to show on particle background */
 .student-list{
-    position: relative; /* allows content to show on particle background */
+    position: relative; 
     text-transform: uppercase;
     font-weight: 500;
     font-size: 4.5625rem;
+    font-family: 'Roboto Medium';
 }
+/* allows content to show on particle background */
 .student-details{
-    position: relative;/* allows content to show on particle background */
+    position: relative;
 }
-.student-outline{/*Gives student list the outline effect*/
-    color: #D6D6D6;
-    -webkit-text-fill-color: #000020; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #67677A;
-    font-size: 5rem;
+
+/*Gives student list the outline effect*/
+.student-outline{
+    color: #67677A;
+    font-size: 1.875rem;
+    line-height: 1.23;
+    padding-top: 35px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
+.student-outline:hover{
+    color: white;
+}
 .student-keyword{
   color: #707070;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.2;
 }
 
 .student-keyword-mobile{
-padding-right: 15px;
+padding-right: 10px;
 text-align: left;
-}
-.student-outline:hover{/*On hover fills in letters and increases size*/
-  color: #000020;
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color:#000020;
-  font-size: 6rem;
 }
 
 /* PARTICLE STYLING */
@@ -251,42 +242,75 @@ particles-js {
 
 
 /* MEDIA QUERIES */
-@media (max-width: 575.98px) {
-  .title{
-    font-size: 2.8125rem;
-  }
-  .subtitle {
-      font-size: 1.5625rem;
-  }
-  .details{
-    font-size: 1rem;
-  }
-  .navbar-tags{
-    display:inline;
-    padding: 0 15px;
-  }
-.student-outline{
-  color:white;
-  -webkit-text-fill-color: #67677A;
-  font-size: 1.875rem;
-  line-height: 1.3;
-  padding-top: 35px;
-}
-.student-outline:hover{
-  color:white;
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: white;
-  font-size: 1.875rem;
-}
-.student-keyword{
-  color: #707070;
-  font-size: 1rem;
-  line-height: 1.2;
+@media (min-width: 992px) {
+    .navbar-tags {
+    display: none;
+    }
 
- }
-.student-keyword-mobile{
-/* padding: 0 15px; */
-text-align: left;
-}
+    .nav-link {
+        color: #fafafa;
+    }
+
+    .nav-link i {
+        border: 3px solid #fafafa;
+    }
+
+    .nav-link:hover {
+        color: #d8d8d8;
+        border-color: #d8d8d8;
+    }
+
+    li .nav-link:hover:after, .nav-link:focus::after {
+        content: '';
+        padding-left: 18px;
+        width: 54px;
+        height: 24px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        color: #707070;
+    }
+
+    li:first-of-type .nav-link:hover::after, li:first-of-type .nav-link:focus::after {
+        content: 'Home';
+    }
+
+    li:nth-child(2) .nav-link:hover::after, li:nth-child(2) .nav-link:focus::after {
+        content: 'Student work';
+    }
+
+    li:last-of-type .nav-link:hover::after, li:last-of-type .nav-link:focus::after {
+        content: 'Location';
+    }
+
+    .title {
+        font-size: 3.75rem;
+    }
+    .subtitle {
+        font-size: 3rem;
+    }
+
+    .student-outline { /*Gives student list the outline effect*/
+        color: #D6D6D6;
+        -webkit-text-fill-color: #000020; /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #67677A;
+        font-size: 5rem;
+    }
+
+    .student-outline:hover {/*On hover fills in letters and increases size*/
+        color: #000020;
+        -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color:#000020;
+        font-size: 6rem;
+    }
+
+    .student-keyword{
+        font-size: 1.25rem;
+    }
+
+    .student-keyword-mobile{
+        padding-right: 15px;
+    } 
  }

@@ -29,12 +29,19 @@ include_once('process-getAll.php');
     </div>
 </div>
 
-<div class=" container student-list">
+<div class="container student-list">
 <h2 class="hidden">Student list</h2> <!-- please put class hidden with font-size: 0 later on to hide the title -->
     <ul class="text-center">
     <?php foreach ($results as $result) { ?>
-        <li class="student-outline"><?= $result["name"] ?></li>
-        <li class="student-keyword"><span class="student-keyword-mobile"><?= $result["keyword1"]?></span class="student-keyword-mobile"><span class="student-keyword-mobile"><?= $result["keyword2"]?></span> <span class="student-keyword-mobile"><?= $result["keyword3"]?></span> <span class="student-keyword-mobile"><?= $result["keyword4"]?></span></li>
+        <li>
+            <div class="student-outline"><?= $result["name"] ?></div>
+            <div class="student-keyword">
+                <span class="student-keyword-mobile"><?= $result["keyword1"]?></span>
+                <span class="student-keyword-mobile"><?= $result["keyword2"]?></span> 
+                <span class="student-keyword-mobile"><?= $result["keyword3"]?></span> 
+                <span class="student-keyword-mobile"><?= $result["keyword4"]?></span>
+            </div>
+        </li>
     <?php } ?>
     </ul>
 </div>
