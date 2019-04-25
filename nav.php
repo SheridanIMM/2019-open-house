@@ -12,7 +12,7 @@
             </a>
         </li>
         <li>
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="#list">
                 <i class="fas fa-users"></i>
             </a>
         </li>
