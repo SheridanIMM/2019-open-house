@@ -34,9 +34,11 @@ include_once('process-getAll.php');
 <div id="list" class="container student-list">
 <h2 class="hidden">Student list</h2> <!-- please put class hidden with font-size: 0 later on to hide the title -->
     <ul class="text-center">
-    <?php foreach ($results as $result) { ?>
+    <?php foreach ($results as $result) {
+      // var_dump($results);
+      ?>
         <li>
-          	<a href="#" data-target="#modalIMG" data-toggle="modal" class="color-gray-darker c6 td-hover-none">
+          	<a href="#" data-target="#modalIMG<?= $result["id"]?>" data-toggle="modal" class="color-gray-darker c6 td-hover-none">
             <div class="student-outline"><?= $result["name"] ?></div>
             <div class="student-keyword">
                 <span class="student-keyword-mobile"><?= $result["keyword1"]?></span>
@@ -58,13 +60,13 @@ include_once('process-getAll.php');
 <!----------------------------------Pop Up-------------------------------------->
 
   <?php foreach ($results as $result) { ?>
-<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG" role="dialog" tabindex="-1">
+<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG<?= $result["id"]?>" role="dialog" tabindex="-1">
 	<div class="modal-dialog modal-lg" role="document">
 		<div class="modal-content">
 			<div class="modal-body">
 
 				<img src="img/<?= $result["images"] ?>" alt="<?= $result["name"] ?> profile image" style="width:100%">
-    
+
 			</div>
 		</div>
 	</div>
