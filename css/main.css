@@ -109,7 +109,7 @@ p.details:last-of-type {
 }
 
 .navbar-toggler {
-    position: relative;
+    position: absolute;
     top: 1rem;
     left: 85%;
     z-index: 2;
