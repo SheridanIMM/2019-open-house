@@ -20,6 +20,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
+    display: flex; 
+    justify-content: center; /* align content in center and mobile */
     margin: 0;
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
@@ -44,10 +46,6 @@ p {
 }
 .hidden {
     font-size: 0;
-}
-/* Ensures the front page doesn't contain student name */
-.landing-screen {
-    height: 100vh;
 }
 
 .title {
@@ -270,6 +268,36 @@ particles-js {
   }
 */
 
+.modal-dialog {   
+    top: 18%;
+    margin: 0 auto;
+    width: 319.3px; /* take this off if you want it bigger  */
+    height: 506.2px;
+}
+
+.modal-content {
+    color: #121d31;
+    line-height: 1.23; 
+    font-size: 1.375rem; /* 22px */  
+}
+
+.modal-body {
+    position: relative;
+    z-index: 999;
+    padding: 0;
+}
+
+.text {
+    position: absolute; 
+    top: 2%;
+    left: 5%;
+}
+
+.text ul {
+    color:#707070;
+      font-weight: 300;
+      font-size: 1rem; /* 16px */
+}
 
 /* MEDIA QUERIES */
 @media (min-width: 992px) {
@@ -313,6 +341,11 @@ particles-js {
         content: 'Location';
     }
 
+    /* Ensures the front page doesn't contain student name */
+    .landing-screen {
+        height: 100vh;
+    }
+
     .title {
         font-size: 3.75rem;
     }
@@ -343,9 +376,11 @@ particles-js {
     .student-keyword-mobile{
         padding-right: 15px;
     }
-    .popup-text{
+    /* .popup-text{
       position: relative;
-      color:#000020;
+      color:#707070;
+      font-weight: 300;
+      width: 190px;
     }
     .popup-name{
       position: absolute;
@@ -376,5 +411,5 @@ particles-js {
       font-size: 1rem;
       top: 22.5%;
       left: 5%;
-    }
+    } */
  }

@@ -3,6 +3,7 @@ include_once('db.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -10,7 +11,7 @@ include_once('db.php');
     <title>IMM 2019 Grad Show</title>
     <!-- needs more meta tags -->
     <!-- Roboto font -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
     <!-- BOOTSTRAP CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -42,6 +43,7 @@ include_once('db.php');
         <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
 </head>
+
 <body>
     <header>
         <!-- Put your header here -->
@@ -49,18 +51,19 @@ include_once('db.php');
     <div id="particles-js"></div>
     <nav id="nav" class="navbar sticky-top navbar-expand-lg navbar-dark">
         <?php
-            include_once('nav.php');
+        include_once('nav.php');
         ?>
     </nav>
 
     <main>
-      <div class="body-particles">
-        <?php
+        <div class="body-particles">
+            <?php
             include_once('content.php');
-        ?>
-      </div>
+            ?>
+        </div>
     </main>
     <!-- SCRIPT -->
     <script src="js/particle.js"></script>
 </body>
+
 </html>
