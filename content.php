@@ -66,9 +66,14 @@ include_once('process-getAll.php');
     <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG<?= $result["id"] ?>" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-body">
+                <div class="modal-body popup-text">
 
                     <img src="img/<?= $result["images"] ?>" alt="<?= $result["name"] ?> profile image" style="width:100%">
+                    <p class="popup-name"><?= $result["name"] ?></p>
+                    <p class="popup-keyword1"><?= $result["keyword1"] ?></p>
+                    <p class="popup-keyword2"><?= $result["keyword2"] ?></p>
+                    <p class="popup-keyword3"><?= $result["keyword3"] ?></p>
+                    <p class="popup-keyword4"><?= $result["keyword4"] ?></p>
 
                 </div>
             </div>

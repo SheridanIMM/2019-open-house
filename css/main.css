@@ -25,7 +25,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.69;
-    padding: 38.4px; /* added padding */ 
+    padding: 38.4px; /* added padding */
     color: #d8d8d8;
     text-align: left;
     background-color: #000020;
@@ -68,7 +68,7 @@ p {
 }
 
 .info {
-    height: 667px; /* added a height to the details */ 
+    height: 667px; /* added a height to the details */
 }
 
 p.details:last-of-type {
@@ -81,7 +81,7 @@ p.details:last-of-type {
 }
 
 .location {
-    text-decoration: underline; 
+    text-decoration: underline;
     margin: 0;
 }
 
@@ -150,7 +150,7 @@ p.details:last-of-type {
     display: inline-block;
 }
 
-/* this was only for the close button on the navigation, but it seems like we don't have one */ 
+/* this was only for the close button on the navigation, but it seems like we don't have one */
 .navbar-toggler .closeBtn {
     position: absolute;
     top: 20px;
@@ -342,5 +342,39 @@ particles-js {
 
     .student-keyword-mobile{
         padding-right: 15px;
+    }
+    .popup-text{
+      position: relative;
+      color:#000020;
+    }
+    .popup-name{
+      position: absolute;
+      font-size: 2.6875rem;
+      top: 2%;
+      left: 5%;
+    }
+    .popup-keyword1{
+      position: absolute;
+      font-size: 1rem;
+      top: 12%;
+      left: 5%;
+    }
+    .popup-keyword2{
+      position: absolute;
+      font-size: 1rem;
+      top: 15.5%;
+      left: 5%;
+    }
+    .popup-keyword3{
+      position: absolute;
+      font-size: 1rem;
+      top: 19%;
+      left: 5%;
+    }
+    .popup-keyword4{
+      position: absolute;
+      font-size: 1rem;
+      top: 22.5%;
+      left: 5%;
     }
  }
