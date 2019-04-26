@@ -62,9 +62,9 @@ include_once('process-getAll.php');
 	<div class="modal-dialog modal-lg" role="document">
 		<div class="modal-content">
 			<div class="modal-body">
-        <?php if($result["id"] == 1) {?>
+
 				<img src="img/<?= $result["images"] ?>" alt="<?= $result["name"] ?> profile image" style="width:100%">
-      <?php } ?>
+    
 			</div>
 		</div>
 	</div>
