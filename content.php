@@ -41,7 +41,7 @@ include_once('process-getAll.php');
             // var_dump($results);
             ?>
             <li>
-                <a href="#" data-target="#modalIMG<?= $result["id"] ?>" data-toggle="modal" class="color-gray-darker c6 td-hover-none">
+                <a class="modal-tag" href="#" data-target="#modalIMG<?= $result["id"] ?>" data-toggle="modal" class="color-gray-darker c6 td-hover-none">
                     <div class="student-outline"><?= $result["name"] ?></div>
                     <div class="student-keyword">
                         <span class="student-keyword-mobile"><?= $result["keyword1"] ?></span>
