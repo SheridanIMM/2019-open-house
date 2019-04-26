@@ -67,7 +67,8 @@ include_once('process-getAll.php');
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-body popup-text">
-                    <img src="img/<?= $result["images"] ?>" alt="<?= $result["name"] ?> profile image" style="width:100%">
+                    <img class="d-none d-sm-block" src="img/WEB/<?= $result["images"] ?>" alt="<?= $result["name"] ?> profile image" style="width:100%">
+                    <img class="d-block d-sm-none" src="img/MOBILE/<?= $result["images"] ?>" alt="<?= $result["name"] ?> profile image" style="width:100%">
                     <div class="text">
                         <p class="popup-name"><?= $result["name"] ?></p>
                         <ul>
