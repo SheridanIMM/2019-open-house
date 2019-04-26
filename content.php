@@ -36,13 +36,15 @@ include_once('process-getAll.php');
     <ul class="text-center">
     <?php foreach ($results as $result) { ?>
         <li>
+          	<a href="#" data-target="#modalIMG" data-toggle="modal" class="color-gray-darker c6 td-hover-none">
             <div class="student-outline"><?= $result["name"] ?></div>
             <div class="student-keyword">
                 <span class="student-keyword-mobile"><?= $result["keyword1"]?></span>
-                <span class="student-keyword-mobile"><?= $result["keyword2"]?></span> 
-                <span class="student-keyword-mobile"><?= $result["keyword3"]?></span> 
+                <span class="student-keyword-mobile"><?= $result["keyword2"]?></span>
+                <span class="student-keyword-mobile"><?= $result["keyword3"]?></span>
                 <span class="student-keyword-mobile"><?= $result["keyword4"]?></span>
             </div>
+          </a>
         </li>
     <?php } ?>
     </ul>
@@ -51,6 +53,25 @@ include_once('process-getAll.php');
 <div id="location">
     Map - coming soon
 </div>
+
+
+<!----------------------------------Pop Up-------------------------------------->
+
+  <?php foreach ($results as $result) { ?>
+<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG" role="dialog" tabindex="-1">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-body">
+        <?php if($result["id"] == 1) {?>
+				<img src="img/<?= $result["images"] ?>" alt="<?= $result["name"] ?> profile image" style="width:100%">
+      <?php } ?>
+			</div>
+		</div>
+	</div>
+</div>
+  <?php } ?>
+<!--------------------------------------------------------------------------------------------------------->
+
 <!-- <div class="student-details">
     <?php foreach ($results as $result) { ?>
         <div class="student temp-border">
