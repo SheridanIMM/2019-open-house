@@ -25,6 +25,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.69;
+    padding: 38.4px; /* added padding */ 
     color: #d8d8d8;
     text-align: left;
     background-color: #000020;
@@ -48,6 +49,7 @@ p {
 .landing-screen {
     height: 100vh;
 }
+
 .title {
     font-size: 2.8125rem;
 }
@@ -65,6 +67,10 @@ p {
     margin-bottom: 10%;
 }
 
+.info {
+    height: 667px; /* added a height to the details */ 
+}
+
 p.details:last-of-type {
     margin-bottom: 0;
 }
@@ -78,6 +84,7 @@ p.details:last-of-type {
     text-decoration: underline; 
     margin: 0;
 }
+
 .temp-border {
     border: 1px solid orange; /*temporary divider*/
 }
@@ -104,7 +111,7 @@ p.details:last-of-type {
 }
 
 .navbar-toggler {
-    position: absolute;
+    position: relative;
     top: 1rem;
     left: 85%;
     z-index: 2;
@@ -143,6 +150,7 @@ p.details:last-of-type {
     display: inline-block;
 }
 
+/* this was only for the close button on the navigation, but it seems like we don't have one */ 
 .navbar-toggler .closeBtn {
     position: absolute;
     top: 20px;
@@ -196,6 +204,7 @@ p.details:last-of-type {
     width: 20%;
     height: auto;
 }
+
 /* allows content to show on particle background */
 .student-list{
     position: relative;

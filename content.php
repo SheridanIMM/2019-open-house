@@ -16,7 +16,7 @@ include_once('process-getAll.php');
         </div>
     </div>
     <div class="container">
-        <div class="row">
+        <div class="row info">
             <div class="col-lg-4 col-sm-12">
                 <p class="details"><i class="fas fa-graduation-cap icon"></i>Sheridan College</p>
                 <p class="details"><i class="fas fa-calendar-alt icon"></i>May 9th from 6 - 9 PM</p>
@@ -79,17 +79,17 @@ include_once('process-getAll.php');
 
 <!-- <div class="student-details">
     <?php foreach ($results as $result) { ?>
-                                                <div class="student temp-border">
-                                                    <img src="img/<?= $result["images"] ?>" alt="<?= $result["name"] ?> profile image">
-                                                    <p><?= $result["name"] ?></p>
-                                                    <p><?= $result["keyword1"] ?></p>
-                                                    <p><?= $result["keyword2"] ?></p>
-                                                    <p><?= $result["keyword3"] ?></p>
-                                                    <p><?= $result["keyword4"] ?></p>
-                                                    <p><?= $result["linkedinURL"] ?></p>
-                                                    <p><?= $result["portfolioURL"] ?></p>
-                                                    <p><?= $result["socialMediaLink"] ?></p>
-                                                    <p><?= $result["description"] ?></p>
-                                                </div>
+                                                                <div class="student temp-border">
+                                                                    <img src="img/<?= $result["images"] ?>" alt="<?= $result["name"] ?> profile image">
+                                                                    <p><?= $result["name"] ?></p>
+                                                                    <p><?= $result["keyword1"] ?></p>
+                                                                    <p><?= $result["keyword2"] ?></p>
+                                                                    <p><?= $result["keyword3"] ?></p>
+                                                                    <p><?= $result["keyword4"] ?></p>
+                                                                    <p><?= $result["linkedinURL"] ?></p>
+                                                                    <p><?= $result["portfolioURL"] ?></p>
+                                                                    <p><?= $result["socialMediaLink"] ?></p>
+                                                                    <p><?= $result["description"] ?></p>
+                                                                </div>
     <?php } ?>
 </div> -->
