@@ -34,6 +34,10 @@ body {
     overflow-x: hidden;
 }
 
+a, a:hover {
+    text-decoration: none; 
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -297,8 +301,8 @@ particles-js {
 
 .text {
     position: absolute;
-    top: 2%;
-    left: 5%;
+    top: 4.4%;
+    left: 2.9%;
     text-transform: uppercase;
     font-size: 1rem; /* 16px */
 }
@@ -311,11 +315,15 @@ particles-js {
 .text .btn {
     background-color: #121d31;
     color: #ffffff;
-    margin-top: 17.8px;
+    margin-bottom: 5.1%;
+    margin-top: 4.5%;
     width: 159.6px;
     height: 33.8px;
     text-transform: uppercase;
-    text-decoration: none;
+}
+
+.btn-no-dec, .btn-no-dec:hover {
+        color:white;
 }
 
 .box {
@@ -329,9 +337,22 @@ particles-js {
 }
 
 .box p {
-    padding: 18.6px 25px;
+    padding: 18.6px 10px 18.6px 30px;
     /* width: 275px; */
     height: 70px; /* descriptions are too long */
+}
+
+.social-icons{
+    font-size: 2rem;
+    color: #121d31;
+    margin-top: 23.3px;
+}
+
+.fab {
+    font-size: 3rem;
+    color: #121d31;
+    display: block;
+    margin-bottom: 10px;
 }
 
 /* MEDIA QUERIES */
@@ -417,46 +438,6 @@ particles-js {
     .modal-tag:hover{
       text-decoration: none;
     }
-    .btn-no-dec{
-        text-decoration: none;
-        color:white;
-    }
-    /* .popup-text{
-      position: relative;
-      color:#707070;
-      font-weight: 300;
-      width: 190px;
-    }
-    .popup-name{
-      position: absolute;
-      font-size: 2.6875rem;
-      top: 2%;
-      left: 5%;
-    }
-    .popup-keyword1{
-      position: absolute;
-      font-size: 1rem;
-      top: 12%;
-      left: 5%;
-    }
-    .popup-keyword2{
-      position: absolute;
-      font-size: 1rem;
-      top: 15.5%;
-      left: 5%;
-    }
-    .popup-keyword3{
-      position: absolute;
-      font-size: 1rem;
-      top: 19%;
-      left: 5%;
-    }
-    .popup-keyword4{
-      position: absolute;
-      font-size: 1rem;
-      top: 22.5%;
-      left: 5%;
-    } */
 
     .modal-dialog {
         width: 692px;
@@ -470,9 +451,6 @@ particles-js {
     .text .btn {
         position: absolute;
         bottom: -40%;
-        margin-bottom: 18.4px;
-        text-decoration: none;
-        color:white;
     }
     .box {
         top: 35.4%;
@@ -486,10 +464,13 @@ particles-js {
         /* width: 253px; */
         height: 69px;
     }
-    .social-icons{
-      font-size: 2rem;
+    
+    .social-icons {
+        position: absolute; 
+        bottom: -20%;
     }
-    .fab{
-      font-size: 2rem;
+    .fab {
+        display: inline;
+        margin-right: 5px;
     }
  }
