@@ -315,6 +315,7 @@ particles-js {
     width: 159.6px;
     height: 33.8px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .box {
@@ -416,6 +417,10 @@ particles-js {
     .modal-tag:hover{
       text-decoration: none;
     }
+    .btn-no-dec{
+        text-decoration: none;
+        color:white;
+    }
     /* .popup-text{
       position: relative;
       color:#707070;
@@ -464,8 +469,10 @@ particles-js {
 
     .text .btn {
         position: absolute;
-        bottom: 0;
+        bottom: -40%;
         margin-bottom: 18.4px;
+        text-decoration: none;
+        color:white;
     }
     .box {
         top: 35.4%;
@@ -478,5 +485,11 @@ particles-js {
     .box p {
         /* width: 253px; */
         height: 69px;
+    }
+    .social-icons{
+      font-size: 2rem;
+    }
+    .fab{
+      font-size: 2rem;
     }
  }

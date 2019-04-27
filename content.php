@@ -77,8 +77,12 @@ include_once('process-getAll.php');
                             <li><?= $result["keyword3"] ?></li>
                             <li><?= $result["keyword4"] ?></li>
                         </ul>
+                        <div class="social-icons">
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-<?= $result["tags"]?>"></i>
+                      </div>
                         <button class=" btn">
-                            <a href="<?= $result["portfolioURL"] ?>">View Portfolio</a>
+                            <a class="btn-no-dec" href="<?= $result["portfolioURL"] ?>">View Portfolio</a>
                         </button>
                     </div>
 
