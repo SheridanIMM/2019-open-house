@@ -268,35 +268,69 @@ particles-js {
   }
 */
 
-.modal-dialog {
+.modal-dialog {   
     top: 18%;
-    /* width: 319.3px; take this off if you want it bigger  -- might move the size of the box to modal-content */
-    height: 506.2px;
+    margin: 0 auto;
+    width: 319.3px; 
+    height: 506.2px; 
 }
 
 .modal-content {
-    text-transform: uppercase;
     color: #121d31;
-    line-height: 1.23;
-    font-size: 1.375rem; /* 22px */
+    line-height: 1.23; 
+     
+    /* width: 319.3px;  
+    height: 506.2px;  */
 }
 
 .modal-body {
     position: relative;
-    z-index: 999;
+    z-index: 2;
     padding: 0;
 }
 
+.popup-name {
+    margin-bottom: 6px;
+    font-weight: bold; 
+    font-size: 1.375rem; /* 22px */
+}
+
 .text {
-    position: absolute;
+    position: absolute; 
     top: 2%;
     left: 5%;
+    text-transform: uppercase;
+    font-size: 1rem; /* 16px */
 }
 
 .text ul {
     color:#707070;
-      font-weight: 300;
-      font-size: 1rem; /* 16px */
+    font-weight: 300;    
+}
+
+.text .btn {
+    background-color: #121d31;
+    color: #ffffff;
+    margin-top: 17.8px;
+    width: 159.6px;
+    height: 33.8px;
+    text-transform: uppercase;
+}
+
+.box {
+    position: absolute; 
+    bottom: 0;
+    background-color: #121d31;
+    color: #ffffff;
+    width: 100%;
+    width: 319.3px;
+    height: 124.5px;  /* Can't be a fixed height/width - descriptions are too long */
+}
+
+.box p {
+    padding: 18.6px 25px;
+    /* width: 275px; */
+    height: 70px; /* descriptions are too long */ 
 }
 
 /* MEDIA QUERIES */
@@ -419,8 +453,30 @@ particles-js {
       left: 5%;
     } */
 
-    .modal-dialog {
-        /* width: 580.9px; take this off if you want it bigger  -- may move the sizing of the box to modal-content */
+    .modal-dialog {   
+        width: 692px; 
         height: 446px;
-}
+    }
+
+    .text {
+        height: 70%;
+    }
+
+    .text .btn {
+        position: absolute; 
+        bottom: 0;
+        margin-bottom: 18.4px;
+    }
+    .box {
+        top: 35.4%; 
+        bottom: 41.9%;
+        left: 0;
+        width: 287px; /* descriptions don't fit inside the box */ 
+        height: 101px;
+    }
+
+    .box p {
+        /* width: 253px; */
+        height: 69px;
+    }
  }
