@@ -450,7 +450,8 @@ particles-js {
 
     .text .btn {
         position: absolute;
-        bottom: -40%;
+        bottom: -35%;
+        margin-bottom: 4.1%;
     }
     .box {
         top: 35.4%;
