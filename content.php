@@ -35,7 +35,8 @@ include_once('process-getAll.php');
 </div>
 <!--------------------------------Filter------------------------------------------------->
 <div class="text-center filter">
-  <i class="fas fa-filter"></i>Filter
+  <span><i class="fas fa-filter"></i>Filter</span>
+  <span>#UX</span>
 </div>
 <!---------------------------------------------------------------------------------------->
 
