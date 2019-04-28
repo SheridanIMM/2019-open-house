@@ -35,7 +35,7 @@ body {
 }
 
 a, a:hover {
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -196,6 +196,12 @@ p.details:last-of-type {
     padding: 0 15px;
 }
 /*Nav Styling End*/
+
+/*Filter*/
+.filter{
+  position: relative;
+}
+/*Filter End*/
 
 /* MAIN CONTENT STYLING */
 /* in development, feel free to make changes */
@@ -409,6 +415,10 @@ particles-js {
         font-size: 3rem;
     }
 
+    .filter{
+      position: relative;
+    }
+
     .student-outline { /*Gives student list the outline effect*/
         color: #D6D6D6;
         -webkit-text-fill-color: #000020; /* Will override color (regardless of order) */
@@ -465,9 +475,9 @@ particles-js {
         /* width: 253px; */
         height: 69px;
     }
-    
+
     .social-icons {
-        position: absolute; 
+        position: absolute;
         bottom: -20%;
     }
     .fab {

@@ -33,6 +33,12 @@ include_once('process-getAll.php');
         </div>
     </div>
 </div>
+<!--------------------------------Filter------------------------------------------------->
+<div class="text-center filter">
+  <i class="fas fa-filter"></i>Filter
+</div>
+<!---------------------------------------------------------------------------------------->
+
 
 <div id="list" class="container student-list">
     <h2 class="hidden">Student list</h2> <!-- please put class hidden with font-size: 0 later on to hide the title -->
