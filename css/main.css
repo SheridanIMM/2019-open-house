@@ -405,7 +405,7 @@ particles-js {
 
     /* Ensures the front page doesn't contain student name */
     .landing-screen {
-        height: 100vh;
+        height: 70vh;
     }
 
     .title {
@@ -418,7 +418,10 @@ particles-js {
     .filter{
       position: relative;
     }
-
+    .filter-tag{
+      padding:10px;
+      font-size: 1.25rem;
+    }
     .student-outline { /*Gives student list the outline effect*/
         color: #D6D6D6;
         -webkit-text-fill-color: #000020; /* Will override color (regardless of order) */

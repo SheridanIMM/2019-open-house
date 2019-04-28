@@ -35,8 +35,17 @@ include_once('process-getAll.php');
 </div>
 <!--------------------------------Filter------------------------------------------------->
 <div class="text-center filter">
-  <span><i class="fas fa-filter"></i>Filter</span>
-  <span>#UX</span>
+  <span class="filter-tag">Filter<i class="fas fa-filter"></i></span>
+  <span class="filter-tag">#UX</span>
+  <span class="filter-tag">#UI</span>
+  <span class="filter-tag">#PROJECT MNGT</span>
+  <span class="filter-tag">#CONTENT STRGY</span>
+  <span class="filter-tag">#AR/VR</span>
+</div>
+<div class="text-center filter">
+  <span class="filter-tag">#FRONT-END DEV</span>
+  <span class="filter-tag">#BACK-END DEV</span>
+  <span class="filter-tag">#VISUAL DESIGN</span>
 </div>
 <!---------------------------------------------------------------------------------------->
 
