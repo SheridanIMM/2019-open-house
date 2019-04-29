@@ -1,5 +1,7 @@
 <?php
 include_once('process-getAll.php');
+include_once('process-fetch.php');
+
 ?>
 <!-- Put your main content here -->
 <div class="landing-screen">
@@ -35,17 +37,24 @@ include_once('process-getAll.php');
 </div>
 <!--------------------------------Filter------------------------------------------------->
 <div class="text-center filter">
-  <span class="filter-tag">Filter<i class="fas fa-filter"></i></span>
-  <span class="filter-tag">#UX</span>
-  <span class="filter-tag">#UI</span>
-  <span class="filter-tag">#PROJECT MNGT</span>
-  <span class="filter-tag">#CONTENT STRGY</span>
-  <span class="filter-tag">#AR/VR</span>
-</div>
-<div class="text-center filter">
-  <span class="filter-tag">#FRONT-END DEV</span>
-  <span class="filter-tag">#BACK-END DEV</span>
-  <span class="filter-tag">#VISUAL DESIGN</span>
+    <span class="filter-tag">Filter<i class="fas fa-filter"></i></span>
+    <?php
+    // var_dump($results1);
+    foreach ($results1 as $result) {
+
+        ?>
+        <span class="filter-tag"><?= $result["skills"] ?></span>
+    <?php } ?>
+    <!-- 
+            <span class="filter-tag">#UI</span>
+            <span class="filter-tag">#PROJECT MNGT</span>
+            <span class="filter-tag">#CONTENT STRGY</span>
+            <span class="filter-tag">#AR/VR</span>
+        </div>
+        <div class="text-center filter">
+            <span class="filter-tag">#FRONT-END DEV</span>
+            <span class="filter-tag">#BACK-END DEV</span>
+            <span class="filter-tag">#VISUAL DESIGN</span> -->
 </div>
 <!---------------------------------------------------------------------------------------->
 
@@ -119,18 +128,18 @@ include_once('process-getAll.php');
 <!--------------------------------------------------------------------------------------------------------->
 
 <!-- <div class="student-details">
-    <?php foreach ($results as $result) { ?>
-                                                                                                                                                                            <div class="student temp-border">
-                                                                                                                                                                                <img src="img/<?= $result["images"] ?>" alt="<?= $result["name"] ?> profile image">
-                                                                                                                                                                                <p><?= $result["name"] ?></p>
-                                                                                                                                                                                <p><?= $result["keyword1"] ?></p>
-                                                                                                                                                                                <p><?= $result["keyword2"] ?></p>
-                                                                                                                                                                                <p><?= $result["keyword3"] ?></p>
-                                                                                                                                                                                <p><?= $result["keyword4"] ?></p>
-                                                                                                                                                                                <p><?= $result["linkedinURL"] ?></p>
-                                                                                                                                                                                <p><?= $result["portfolioURL"] ?></p>
-                                                                                                                                                                                <p><?= $result["socialMediaLink"] ?></p>
-                                                                                                                                                                                <p><?= $result["description"] ?></p>
-                                                                                                                                                                            </div>
-    <?php } ?>
-</div> -->
+                <?php foreach ($results as $result) { ?>
+                                                                                                                                                                                                                                                                            <div class="student temp-border">
+                                                                                                                                                                                                                                                                                <img src="img/<?= $result["images"] ?>" alt="<?= $result["name"] ?> profile image">
+                                                                                                                                                                                                                                                                                <p><?= $result["name"] ?></p>
+                                                                                                                                                                                                                                                                                <p><?= $result["keyword1"] ?></p>
+                                                                                                                                                                                                                                                                                <p><?= $result["keyword2"] ?></p>
+                                                                                                                                                                                                                                                                                <p><?= $result["keyword3"] ?></p>
+                                                                                                                                                                                                                                                                                <p><?= $result["keyword4"] ?></p>
+                                                                                                                                                                                                                                                                                <p><?= $result["linkedinURL"] ?></p>
+                                                                                                                                                                                                                                                                                <p><?= $result["portfolioURL"] ?></p>
+                                                                                                                                                                                                                                                                                <p><?= $result["socialMediaLink"] ?></p>
+                                                                                                                                                                                                                                                                                <p><?= $result["description"] ?></p>
+                                                                                                                                                                                                                                                                            </div>
+                <?php } ?>
+            </div> -->
