@@ -1,25 +1,29 @@
-<!-- Put your navigation here -->
-<!-- No need to put the link, script and head meta tags here -->
-<p>Navigation (coming soon)</p>
-<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-   <a class="navbar-brand" href="#">Navbar</a>
-   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-     <span class="navbar-toggler-icon"></span>
-   </button>
-   <div class="collapse navbar-collapse" id="navbarNav">
-     <ul class="navbar-nav">
-       <li class="nav-item active">
-         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link" href="#">Features</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link" href="#">Pricing</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link disabled" href="#">Disabled</a>
-       </li>
-     </ul>
-   </div>
- </nav> -->
+<?php ?>
+
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+    <!-- <button id="closeBtn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">&times;</button> -->
+    <ul class="navbar-collapse-tags-center">
+        <li class="">
+            <a class="nav-link" href="#">
+                <i class="fas fa-home"></i> <span class="navbar-tags">Home<span>
+            </a>
+        </li>
+        <li class="">
+            <a class="nav-link" href="#list">
+                <i class="fas fa-users"></i><span class="navbar-tags"> Student Work<span>
+            </a>
+        </li>
+        <li class="">
+            <a class="nav-link" href="#location">
+                <i class="fas fa-map-marker-alt"></i><span class="navbar-tags"> Location<span>
+            </a>
+        </li>
+    </ul>
+
+</div>
+
+
+<?php ?>
