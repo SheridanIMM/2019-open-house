@@ -77,7 +77,7 @@ include_once('process-filter_tags.php');
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-body popup-text">
-                    <img class="d-none d-lg-block" src="img/WEB/<?= $result["images"] ?>" alt="<?= $result["name"] ?> profile image" style="width:100%">
+                    <img class="d-none d-lg-block" src="img/WEB/<?= $result["images"] ?>" alt='<?= $result["name"] ?> profile image' style="width:100%">
                     <img class="d-block d-lg-none" src="img/MOBILE/<?= $result["images"] ?>" alt="<?= $result["name"] ?> profile image" style="width:100%">
                     <div class="text">
                         <p class="popup-name"><?= $result["name"] ?></p>
@@ -110,21 +110,3 @@ include_once('process-filter_tags.php');
         </div>
     </div>
 <?php } ?>
-<!--------------------------------------------------------------------------------------------------------->
-
-<!-- <div class="student-details">
-                <?php foreach ($results as $result) { ?>
-                                                                                                                                                                                                                                                                                                                                <div class="student temp-border">
-                                                                                                                                                                                                                                                                                                                                    <img src="img/<?= $result["images"] ?>" alt="<?= $result["name"] ?> profile image">
-                                                                                                                                                                                                                                                                                                                                    <p><?= $result["name"] ?></p>
-                                                                                                                                                                                                                                                                                                                                    <p><?= $result["keyword1"] ?></p>
-                                                                                                                                                                                                                                                                                                                                    <p><?= $result["keyword2"] ?></p>
-                                                                                                                                                                                                                                                                                                                                    <p><?= $result["keyword3"] ?></p>
-                                                                                                                                                                                                                                                                                                                                    <p><?= $result["keyword4"] ?></p>
-                                                                                                                                                                                                                                                                                                                                    <p><?= $result["linkedinURL"] ?></p>
-                                                                                                                                                                                                                                                                                                                                    <p><?= $result["portfolioURL"] ?></p>
-                                                                                                                                                                                                                                                                                                                                    <p><?= $result["socialMediaLink"] ?></p>
-                                                                                                                                                                                                                                                                                                                                    <p><?= $result["description"] ?></p>
-                                                                                                                                                                                                                                                                                                                                </div>
-                <?php } ?>
-            </div> -->
