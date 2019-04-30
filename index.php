@@ -1,5 +1,6 @@
 <?php
 include_once('db.php');
+include_once('key.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -30,7 +31,6 @@ include_once('db.php');
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="js/main.js"></script>
-    <script src="js/map.js"></script>
 
 
     <!-- html5.js for IE less than 9 -->
@@ -62,8 +62,12 @@ include_once('db.php');
             ?>
         </div>
     </main>
+    <div id="map"></div>
+
     <!-- SCRIPT -->
     <script src="js/particle.js"></script>
+    <script src="js/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=<?= $key ?>&callback=initMap" async defer></script>
 </body>
 
 </html>

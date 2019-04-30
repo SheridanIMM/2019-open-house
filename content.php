@@ -68,9 +68,6 @@ include_once('process-filter_tags.php');
     </ul>
 </div>
 
-<div id="location">
-    Map - coming soon
-</div>
 
 
 <!----------------------------------Pop Up-------------------------------------->

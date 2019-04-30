@@ -382,7 +382,11 @@ particles-js {
     display: block;
     margin-bottom: 10px;
 }
-
+#map {
+    color: black;
+    width: 100%;
+    height: 50vh;
+}
 /* MEDIA QUERIES */
 @media (min-width: 992px) {
     .navbar-tags {
