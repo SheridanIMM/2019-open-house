@@ -382,6 +382,9 @@ particles-js {
     display: block;
     margin-bottom: 10px;
 }
+.checked {
+    color: #d8d8d8 !important;
+}
 #map {
     color: black;
     width: 100%;
