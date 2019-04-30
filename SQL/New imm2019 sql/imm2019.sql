@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 27, 2019 at 08:53 PM
+-- Generation Time: Apr 30, 2019 at 04:46 AM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.3.0
 
@@ -72,8 +72,8 @@ INSERT INTO `openhouse` (`id`, `name`, `keyword1`, `keyword2`, `keyword3`, `keyw
 (22, 'Wenjing Cao', '#UX', '#Front-end dev', '#Visual Design', '#UI', 'https://www.linkedin.com/in/wenjing-cao-3574aa170/', '', 'https://www.instagram.com/wenjing.ww/?hl=en', 'Wenjing is  a UI/UX designer and front-end developer. She has one year working experience in graphic design. She is also good at video editing and video effects. She likes photography in her spare time.', 'wenjing.png', 'instagram'),
 (23, 'Elena Race', '#UX', '#UI', '#Content Strgy', '#Front-end dev', 'https://www.linkedin.com/in/elenarace/', 'http://www.elenarace.com', 'https://twitter.com/elenarace', 'Elena is a technology enthusiast who has worked in a variety of industries in Canada and the UK. She is adept at analyzing business processes and suggesting how they might be modified to improve user experience. Elena plans to pursue a career in UX.', 'elena.png', 'twitter'),
 (24, 'Nakisha Cohen', '#UX', '#UI', '#AR/VR', '#Front-end dev', 'https://www.linkedin.com/in/nncohen/', 'https://www.nakishacohen.com/', 'https://twitter.com/nakishacoh', 'Nakisha is a UX/UI designer with a content and marketing background. She enjoys creating projects that ensure usable and intuitive results. Outside of work, she plays her ukulele and competitively plays Candy Crush.', 'nik.png', 'twitter'),
-(25, 'Alina Raza', 'UX', 'UI', 'Front End', '', 'https://www.linkedin.com/in/alinaraza/', 'http://www.alinaraza.com/', 'https://twitter.com/_AlinaRaza', 'Alina is a UX/UI designer with experience in mobile application and website design. She is a motivated learner and always looks for innovative ways to create better user-centered and inclusive designs. ', 'Alina.png', 'twitter'),
-(26, 'Katie Carson', 'Front-End', 'UI', 'UX', 'Content STrategy', 'https://www.linkedin.com/in/katecarson93', 'http://kate-carson.com/', 'https://www.instagram.com/katecarson93', 'Tea drinker. Dog lover. Photographer. Swimmer. Katie plans to pursue front-end web development by bringing writing, design, and code together. She has always been passionate about technology!', 'Katie.png', 'instagram');
+(25, 'Alina Raza', '#UX', '#UI', '#Front End', '#Content Strategy', 'https://www.linkedin.com/in/alinaraza/', 'http://www.alinaraza.com/', 'https://twitter.com/_AlinaRaza', 'Alina is a UX/UI designer with experience in mobile application and website design. She is a motivated learner and always looks for innovative ways to create better user-centered and inclusive designs. ', 'Alina.png', 'twitter'),
+(27, 'Katie Carson', '#Front-end Dev', '#UI', '#UX', '#Content Strategy', 'https://www.linkedin.com/in/katecarson93', 'http://kate-carson.com/', 'https://www.instagram.com/katecarson93', 'Tea drinker. Dog lover. Photographer. Swimmer. Katie plans to pursue front-end web development by bringing writing, design, and code together. She has always been passionate about technology!', 'katie.png', 'instagram');
 
 --
 -- Indexes for dumped tables
@@ -93,7 +93,7 @@ ALTER TABLE `openhouse`
 -- AUTO_INCREMENT for table `openhouse`
 --
 ALTER TABLE `openhouse`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
