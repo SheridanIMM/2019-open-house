@@ -36,7 +36,7 @@ include_once('process-filter_tags.php');
     </div>
 </div>
 <!--------------------------------Filter------------------------------------------------->
-<div class="text-center filter">
+<div class="text-center filter-desktop">
     <span class="filter-tag">Filter<i class="fas fa-filter"></i></span>
     <?php
     foreach ($results1 as $result) {
