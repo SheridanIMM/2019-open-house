@@ -196,7 +196,7 @@ p.details:last-of-type {
 /*Nav Styling End*/
 
 /*Filter*/
-input[type=checkbox] {
+input[type=checkbox] { /* uncomment this for testing checkbox state */ 
     display: none; 
 }
 
@@ -219,7 +219,7 @@ input[type=checkbox] {
     display: none;
 }
 
-/* .filter-tag:checked {
+/* input:checked { -- this doesn't work, has to be done in JS? --
     color: #ffffff; 
 } */
 
