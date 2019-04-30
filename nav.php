@@ -8,7 +8,7 @@ include_once('process-filter_tags.php');
 </button>
 <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
     <button id="closeBtn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span id="close" aria-hidden=" true">&times;</span>
+        <span id="close" aria-hidden="true">&times;</span>
     </button>
     <ul class="navbar-collapse-tags-center">
         <li>
@@ -33,6 +33,9 @@ include_once('process-filter_tags.php');
     <span class="filter-tag">Filter<i class="fas fa-filter"></i></span>
 </button>
 <div class="collapse navbar-collapse" id="filter">
+    <button id="closeBtn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span id="close" aria-hidden="true">&times;</span>
+    </button>
     <p>Choose what you're looking for!</p>
     <ul>
         <?php
