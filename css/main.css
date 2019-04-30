@@ -196,12 +196,16 @@ p.details:last-of-type {
 /*Nav Styling End*/
 
 /*Filter*/
+input[type=checkbox] {
+    display: none; 
+}
+
 .filter {
     font-weight: 500; 
     font-size: 1.25rem;
 }
 
-.filter-tag:not(:first-of-type) {
+.filter-tag:not(span) {
     text-transform: uppercase; 
     color: #707070;
 }
@@ -214,6 +218,10 @@ p.details:last-of-type {
 .filter {
     display: none;
 }
+
+/* .filter-tag:checked {
+    color: #ffffff; 
+} */
 
 /*Filter End*/
 
