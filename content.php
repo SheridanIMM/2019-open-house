@@ -76,7 +76,11 @@ include_once('process-filter_tags.php');
     <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG<?= $result["id"] ?>" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
+
                 <div class="modal-body popup-text">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                     <img class="d-none d-lg-block" src="img/WEB/<?= $result["images"] ?>" alt='<?= $result["name"] ?> profile image' style="width:100%">
                     <img class="d-block d-lg-none" src="img/MOBILE/<?= $result["images"] ?>" alt="<?= $result["name"] ?> profile image" style="width:100%">
                     <div class="text">
