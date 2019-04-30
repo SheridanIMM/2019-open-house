@@ -39,7 +39,6 @@ include_once('process-filter_tags.php');
 <div class="text-center filter">
     <span class="filter-tag">Filter<i class="fas fa-filter"></i></span>
     <?php
-    // var_dump($results1);
     foreach ($results1 as $result) {
         ?>
         <label class="filter-tag"><input type="checkbox" value="<?= $result["skills"] ?>" /><?= $result["skills"] ?></label> <?php } ?>
@@ -79,9 +78,9 @@ include_once('process-filter_tags.php');
 
                 <div class="modal-body popup-text">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                        <span aria-hidden=" true">&times;</span>
                     </button>
-                    <img class="d-none d-lg-block" src="img/WEB/<?= $result["images"] ?>" alt='<?= $result["name"] ?> profile image' style="width:100%">
+                    <img class="d-none d-lg-block" src="img/WEB/<?= $result["images"] ?>" alt="<?= $result['name'] ?> profile image" style="width:100%">
                     <img class="d-block d-lg-none" src="img/MOBILE/<?= $result["images"] ?>" alt="<?= $result["name"] ?> profile image" style="width:100%">
                     <div class="text">
                         <p class="popup-name"><?= $result["name"] ?></p>
