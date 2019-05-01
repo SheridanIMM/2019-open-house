@@ -49,8 +49,9 @@ p {
 .hidden {
     font-size: 0;
 }
+
 .landing-screen{
-  margin-top: 55%;
+  margin-top: 185.7px; /* should it be 185.7px not 55%? */ 
 }
 .title {
     font-size: 2.8125rem;
@@ -117,7 +118,7 @@ p.details:last-of-type {
 .navbar-toggler {
     position: absolute;
     top: 1rem;
-    left: 80%;
+    left: 86%;
     z-index: 2;
     opacity: 1;
 }
@@ -227,10 +228,10 @@ input[type=checkbox] { /* uncomment this for testing checkbox state */
 
 #filterBtn {
     left: 0;
+    right: 86%;
 }
 
 #filter {
-    padding: 33.3px 0 48px 42.5px;
     line-height: 1.2;
 }
 /*Filter End*/
@@ -462,7 +463,7 @@ particles-js {
     /* Ensures the front page doesn't contain student name */
     .landing-screen {
         height: 70vh;
-        margin-top: 0;
+        margin-top: 232.7px; /* change to percent? */
     }
 
     .title {
@@ -538,10 +539,6 @@ particles-js {
     .fab {
         display: inline;
         margin-right: 5px;
-    }
-
-    .navbar-expand-lg .navbar-collapse #filter {
-        display: none !important; /* to hide the filter menu on mobile */
     }
 
     .filter-desktop { /* not in the right place on LAPTOP */
