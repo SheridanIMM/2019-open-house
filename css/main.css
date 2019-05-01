@@ -20,12 +20,12 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
-    margin: 0;
+    margin: 0 38.4px; /* - added this so everything is not right up against the edge */ 
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.69;
-    /* padding: 38.4px; /* added padding */
+    /* padding: 38.4px; added padding */
     color: #d8d8d8;
     text-align: left;
     background-color: #000020;
@@ -118,7 +118,7 @@ p.details:last-of-type {
 .navbar-toggler {
     position: absolute;
     top: 1rem;
-    left: 86%;
+    left: 80%;
     z-index: 2;
     opacity: 1;
 }
@@ -228,7 +228,6 @@ input[type=checkbox] { /* uncomment this for testing checkbox state */
 
 #filterBtn {
     left: 0;
-    right: 86%;
 }
 
 #filter {
