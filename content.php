@@ -35,6 +35,8 @@ include_once('process-filter_tags.php');
         </div>
     </div>
 </div>
+
+
 <!--------------------------------Filter------------------------------------------------->
 <div class="text-center filter-desktop d-none d-lg-block">
     <span class="filter-tag">Filter<i class="fas fa-filter"></i></span>

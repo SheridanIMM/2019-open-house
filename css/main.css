@@ -252,6 +252,7 @@ input[type=checkbox] { /* uncomment this for testing checkbox state */
     font-weight: 500;
     font-size: 4.5625rem;
     font-family: 'Roboto Medium';
+    margin-bottom: 5%;
 }
 /* allows content to show on particle background */
 .student-details{
@@ -412,6 +413,7 @@ particles-js {
     color: black;
     width: 100%;
     height: 50vh;
+    margin-bottom: 5%;
 }
 
 /* MEDIA QUERIES */
