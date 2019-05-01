@@ -25,7 +25,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.69;
-    padding: 38.4px; /* added padding */
+    /* padding: 38.4px; /* added padding */
     color: #d8d8d8;
     text-align: left;
     background-color: #000020;
@@ -49,7 +49,9 @@ p {
 .hidden {
     font-size: 0;
 }
-
+.landing-screen{
+  margin-top: 55%;
+}
 .title {
     font-size: 2.8125rem;
 }
@@ -115,13 +117,13 @@ p.details:last-of-type {
 .navbar-toggler {
     position: absolute;
     top: 1rem;
-    left: 85%;
+    left: 80%;
     z-index: 2;
     opacity: 1;
 }
 
 .navbar-dark .navbar-toggler {
-    border: none; 
+    border: none;
     color: #ffffff;
 }
 
@@ -144,7 +146,7 @@ p.details:last-of-type {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  
+
   /*transition: 0.5s;  0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
 
@@ -166,14 +168,14 @@ p.details:last-of-type {
 
 .navbar-toggler .closeBtn {
     position: absolute;
-    right: 5%; 
+    right: 5%;
     width: 29.1px;
     height: 29.1px;
     color: #707070;
 }
 
 .navbar-collapse button {
-    font-size: 3rem; 
+    font-size: 3rem;
 }
 
 .nav-link {
@@ -205,8 +207,8 @@ p.details:last-of-type {
 /*Nav Styling End*/
 
 /*Filter*/
-input[type=checkbox] { /* uncomment this for testing checkbox state */ 
-    display: none; 
+input[type=checkbox] { /* uncomment this for testing checkbox state */
+    display: none;
 }
 
 #filter, .filter-desktop {
@@ -214,7 +216,7 @@ input[type=checkbox] { /* uncomment this for testing checkbox state */
 }
 
 .filter-tag:not(span) {
-    text-transform: uppercase; 
+    text-transform: uppercase;
     color: #707070;
 }
 
@@ -225,7 +227,7 @@ input[type=checkbox] { /* uncomment this for testing checkbox state */
 
 #filterBtn {
     left: 0;
-} 
+}
 
 #filter {
     padding: 33.3px 0 48px 42.5px;
@@ -330,15 +332,15 @@ particles-js {
 }
 
 .modal-body .close {
-    position: absolute; 
-    right: 5%; 
+    position: absolute;
+    right: 5%;
     width: 29.1px;
     height: 29.1px;
     color: #707070;
 }
 
 .close span {
-    font-size: 3rem; 
+    font-size: 3rem;
 }
 
 .popup-name {
@@ -457,6 +459,7 @@ particles-js {
     /* Ensures the front page doesn't contain student name */
     .landing-screen {
         height: 70vh;
+        margin-top: 0;
     }
 
     .title {
@@ -533,16 +536,17 @@ particles-js {
         display: inline;
         margin-right: 5px;
     }
-    
+
     .navbar-expand-lg .navbar-collapse #filter {
         display: none !important; /* to hide the filter menu on mobile */
     }
 
-    .filter-desktop { /* not in the right place on LAPTOP */ 
-        position: relative; 
+    .filter-desktop { /* not in the right place on LAPTOP */
+        position: relative;
         display: inline-block;
-        font-weight: 500; 
+        font-weight: 500;
         margin-right: 296.3px;
         margin-left: 352.5px;
+        margin-top: 5%;
     }
  }

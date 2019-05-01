@@ -33,11 +33,11 @@ include_once('process-filter_tags.php');
     <span class="filter-tag">Filter<i class="fas fa-filter"></i></span>
 </button>
 <div class="collapse navbar-collapse" id="filter">
-    <button id="closeBtn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span id="close" aria-hidden="true">&times;</span>
+    <button id="closeBtn1" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#filter" aria-controls="filter" aria-expanded="false" aria-label="Toggle navigation">
+        <span id="close2" aria-hidden="true">&times;</span>
     </button>
-    <p>Choose what you're looking for!</p>
-    <ul>
+    <p class="d-block d-lg-none">Choose what you're looking for!</p>
+    <ul class="d-block d-lg-none">
         <?php
         foreach ($results1 as $result) {
             ?>

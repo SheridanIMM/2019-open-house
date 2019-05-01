@@ -62,7 +62,7 @@ include_once('key.php');
             ?>
         </div>
     </main>
-    <div id="map"></div>
+    <div class="container" id="map"></div>
 
     <!-- SCRIPT -->
     <script src="js/particle.js"></script>
