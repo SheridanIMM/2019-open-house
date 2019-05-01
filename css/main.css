@@ -413,7 +413,8 @@ particles-js {
     color: black;
     width: 100%;
     height: 50vh;
-    margin-bottom: 5%;
+    margin-bottom: 0;
+
 }
 
 /* MEDIA QUERIES */
@@ -550,5 +551,11 @@ particles-js {
         margin-right: 296.3px;
         margin-left: 352.5px;
         margin-top: 5%;
+    }
+    #map {
+        color: black;
+        width: 100%;
+        height: 50vh;
+        margin-bottom: 5%;
     }
  }
