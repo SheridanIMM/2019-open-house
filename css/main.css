@@ -25,7 +25,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.69;
-    /* padding: 38.4px; /* added padding */
+    padding: 38.4px; /* added padding */
     color: #d8d8d8;
     text-align: left;
     background-color: #000020;
@@ -94,6 +94,7 @@ p.details:last-of-type {
     position: fixed;
     top: 0;
     width: 100%;
+    /* padding: 10px; */
 }
 .navbar {
     padding: 0;
@@ -116,13 +117,24 @@ p.details:last-of-type {
     top: 1rem;
     left: 85%;
     z-index: 2;
+    opacity: 1;
+}
+
+.navbar-dark .navbar-toggler {
+    border: none; 
+    color: #ffffff;
+}
+
+.navbar-toggler-icon:first-of-type {
+    font-size: 2rem;
 }
 
 .navbar-collapse.show {
   /* Height & width depends on how you want to reveal the overlay (see JS below) */
   height: 100%;
   width: 0;
-  z-index: 1; /* Sit on top */
+  z-index: 999; /* Sit on top */
+  opacity: 1;
   left: 0;
   top: 0;
   background-color: rgb(0,0,0); /* Black fallback color */
@@ -132,6 +144,7 @@ p.details:last-of-type {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  
   /*transition: 0.5s;  0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
 
@@ -148,23 +161,33 @@ p.details:last-of-type {
 }
 
 .navbar-tags{
-    display: inline-block;
+    display: inline;
 }
 
-/* this was only for the close button on the navigation, but it seems like we don't have one */
 .navbar-toggler .closeBtn {
     position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-    width: 22.1px;
-    height: 19.7px;
-    border: solid 1px #707070;
+    right: 5%; 
+    width: 29.1px;
+    height: 29.1px;
+    color: #707070;
+}
+
+.navbar-collapse button {
+    font-size: 3rem; 
 }
 
 .nav-link {
     color: #d0d0d0;
     text-decoration: none;
+}
+
+.nav-link span {
+    padding-left: 18px;
+    width: 54px;
+    height: 24px;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    color: #f5f5f5;
 }
 
 .nav-link i {
@@ -179,47 +202,35 @@ p.details:last-of-type {
 .fa, .fas {
     text-align: center;
 }
-
-.nav-link span {
-    padding-left: 18px;
-    width: 54px;
-    height: 24px;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    color: #f5f5f5;
-}
-
-.navbar-tags {
-    display:inline;
-    padding: 0 15px;
-}
 /*Nav Styling End*/
 
 /*Filter*/
-input[type=checkbox] { /* uncomment this for testing checkbox state */
-    display: none;
+input[type=checkbox] { /* uncomment this for testing checkbox state */ 
+    display: none; 
 }
 
-.filter {
-    font-weight: 500;
+#filter, .filter-desktop {
     font-size: 1.25rem;
 }
 
 .filter-tag:not(span) {
-    text-transform: uppercase;
+    text-transform: uppercase; 
     color: #707070;
 }
 
-.filter i {
+.filter-tag i {
     padding-left: 5.1px;
     padding-right: 16.8px;
 }
 
-.filter {
-    display: none;
-}
+#filterBtn {
+    left: 0;
+} 
 
+#filter {
+    padding: 33.3px 0 48px 42.5px;
+    line-height: 1.2;
+}
 /*Filter End*/
 
 /* MAIN CONTENT STYLING */
@@ -318,6 +329,18 @@ particles-js {
     padding: 0;
 }
 
+.modal-body .close {
+    position: absolute; 
+    right: 5%; 
+    width: 29.1px;
+    height: 29.1px;
+    color: #707070;
+}
+
+.close span {
+    font-size: 3rem; 
+}
+
 .popup-name {
     margin-bottom: 6px;
     font-weight: bold;
@@ -358,13 +381,13 @@ particles-js {
     color: #ffffff;
     width: 100%;
     width: 319.3px;
-    height: 190px;  /* Can't be a fixed height/width - descriptions are too long */
+    height: 190px;  /* Can't be a fixed height/width - descriptions are too long -- fixed */
 }
 
 .box p {
     padding: 9.6px 10px 18.6px 17px;
     /* width: 275px; */
-    height: 70px; /* descriptions are too long */
+    height: 70px; /* descriptions are too long -- fixed */
 }
 
 .social-icons{
@@ -424,7 +447,7 @@ particles-js {
     }
 
     li:nth-child(2) .nav-link:hover::after, li:nth-child(2) .nav-link:focus::after {
-        content: 'Student work';
+        content: 'Student Work';
     }
 
     li:last-of-type .nav-link:hover::after, li:last-of-type .nav-link:focus::after {
@@ -486,14 +509,14 @@ particles-js {
         position: absolute;
         bottom: -35%;
         margin-bottom: 4.1%;
-    width: 159.6px;
+        width: 159.6px;
 
     }
     .box {
         top: 35.4%;
         bottom: 41.9%;
         left: 0;
-        /* width: 287px; descriptions don't fit inside the box */
+        /* width: 287px; descriptions don't fit inside the box -- fixed */
         /* height: 190px; */
     }
 
@@ -510,10 +533,15 @@ particles-js {
         display: inline;
         margin-right: 5px;
     }
+    
+    .navbar-expand-lg .navbar-collapse #filter {
+        display: none !important; /* to hide the filter menu on mobile */
+    }
 
-    .filter { /* not in the right place on LAPTOP */
-        position: relative; /* when you take this away, the section disappears, why? */
+    .filter-desktop { /* not in the right place on LAPTOP */ 
+        position: relative; 
         display: inline-block;
+        font-weight: 500; 
         margin-right: 296.3px;
         margin-left: 352.5px;
     }
