@@ -430,6 +430,7 @@ particles-js {
     .navbar-toggler {
         left: 85%;
     }
+
 }
 
 @media (min-width: 992px) {
@@ -567,7 +568,7 @@ particles-js {
         font-weight: 500;
         margin-right: 296.3px;
         margin-left: 352.5px;
-        margin-top: 5%;
+        margin-top: 10%;
     }
     #map {
         color: black;
