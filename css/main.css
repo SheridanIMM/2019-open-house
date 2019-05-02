@@ -225,6 +225,7 @@ input[type=checkbox] { /* uncomment this for testing checkbox state */
     text-transform: uppercase;
     color: #707070;
     cursor: pointer;
+    padding-right: 10px;
 }
 
 .filter-tag i {
