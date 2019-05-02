@@ -121,7 +121,7 @@ p.details:last-of-type {
 .navbar-toggler {
     position: absolute;
     top: 0.1rem;
-    left: 70%; /* changed the first hamburger's left offset to fix on mobile devices */
+    left: 75%; /* changed the first hamburger's left offset to fix on mobile devices */
     z-index: 2;
     opacity: 1;
     margin: 0 26px; /* - added this so the buttons are not right up against the edge - don't move or nav menus shift */
@@ -426,6 +426,12 @@ particles-js {
 }
 
 /* MEDIA QUERIES */
+@media (min-width: 768px) {
+    .navbar-toggler {
+        left: 85%;
+    }
+}
+
 @media (min-width: 992px) {
   #nav {
       position: fixed;

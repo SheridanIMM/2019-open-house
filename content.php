@@ -93,13 +93,13 @@ include_once('process-filter_tags.php');
                             <li><?= $result["keyword4"] ?></li>
                         </ul>
                         <button class="btn">
-                            <a class="btn-no-dec" href="<?= $result["portfolioURL"] ?>">View Portfolio</a>
+                            <a class="btn-no-dec" href="<?= $result["portfolioURL"] ?>" target="_blank">View Portfolio</a>
                         </button>
                         <div class="social-icons">
-                            <a href="<?= $result["socialMediaLink"] ?>">
+                            <a href="<?= $result["socialMediaLink"] ?>" target="_blank">
                                 <i class="fab fa-<?= $result["tags"] ?>"></i>
                             </a>
-                            <a href="<?= $result["linkedinURL"] ?>">
+                            <a href="<?= $result["linkedinURL"] ?>" target="_blank">
                                 <i class="fab fa-linkedin"></i>
                             </a>
                         </div>
