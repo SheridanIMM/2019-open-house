@@ -12,7 +12,7 @@ include_once('process-filter_tags.php');
     </button>
     <ul class="navbar-collapse-tags-center">
         <li>
-            <a class="nav-link" href="#map">
+            <a class="nav-link" href="#top">
                 <i class="fas fa-home"></i> <span class="navbar-tags">Home<span>
             </a>
         </li>
