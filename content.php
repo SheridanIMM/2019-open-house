@@ -56,7 +56,7 @@ include_once('process-filter_tags.php');
             ?>
             <li>
                 <a class="modal-tag" href="#" data-target="#modalIMG<?= $result["id"] ?>" data-toggle="modal" class="color-gray-darker c6 td-hover-none">
-                    <div class="student-outline"><?= str_replace('"', '&#34;',$result['name']) ?></div>
+                    <div class="student-outline"><?= str_replace('"', '&#34;', $result['name']) ?></div>
                     <div class="student-keyword">
                         <span class="student-keyword-mobile"><?= $result["keyword1"] ?></span>
                         <span class="student-keyword-mobile"><?= $result["keyword2"] ?></span>
@@ -82,10 +82,10 @@ include_once('process-filter_tags.php');
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden=" true">&times;</span>
                     </button>
-                    <img class="d-none d-lg-block" src="img/WEB/<?= $result["images"] ?>" alt="<?= str_replace('"', '&#34;',$result['name']) ?> profile image" style="width:100%">
-                    <img class="d-block d-lg-none" src="img/MOBILE/<?= $result["images"] ?>" alt="<?= str_replace('"', '&#34;',$result['name']) ?> profile image" style="width:100%">
+                    <img class="d-none d-lg-block" src="img/WEB/<?= $result["images"] ?>" alt="<?= str_replace('"', '&#34;', $result['name']) ?> profile image" style="width:100%">
+                    <img class="d-block d-lg-none" src="img/MOBILE/<?= $result["images"] ?>" alt="<?= str_replace('"', '&#34;', $result['name']) ?> profile image" style="width:100%">
                     <div class="text">
-                        <p class="popup-name"><?= str_replace('"', '&#34;',$result['name']) ?></p>
+                        <p class="popup-name"><?= str_replace('"', '&#34;', $result['name']) ?></p>
                         <ul>
                             <li><?= $result["keyword1"] ?></li>
                             <li><?= $result["keyword2"] ?></li>

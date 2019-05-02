@@ -224,6 +224,7 @@ input[type=checkbox] { /* uncomment this for testing checkbox state */
 .filter-tag:not(span) {
     text-transform: uppercase;
     color: #707070;
+    cursor: pointer;
 }
 
 .filter-tag i {
@@ -237,7 +238,7 @@ input[type=checkbox] { /* uncomment this for testing checkbox state */
 }
 
 #filter {
-    padding: 33.3px 0 41px 48px;
+    padding: 48px 0 41px 48px;
     line-height: 1.2;
 }
 /*Filter End*/

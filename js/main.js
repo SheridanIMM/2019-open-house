@@ -5,7 +5,7 @@ $(document).ready(function () {
     $('.filter-tag').change(function (e) {
         var filter = [];
         $(this).toggleClass('checked');
-        
+
         $('input:checked').each(function () {
             console.log("Change");
             filter.push($(this).val());
@@ -21,4 +21,5 @@ $(document).ready(function () {
             }
         })
     })
+
 })
