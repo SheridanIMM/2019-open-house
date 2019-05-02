@@ -20,7 +20,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
-    margin: 0; 
+    margin: 0;
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -51,7 +51,7 @@ p {
 }
 
 .landing-screen{
-  margin-top: 185.7px; /* should it be 185.7px not 55%? */ 
+  margin-top: 185.7px; /* should it be 185.7px not 55%? */
     padding: 0 26px;
 }
 
@@ -98,12 +98,13 @@ p.details:last-of-type {
 #nav {
     position: fixed;
     top: 0;
-    width: 100%;
+    display: inline;
+    width: auto;
     /* padding: 10px; */
 }
 .navbar {
     padding: 0;
-    
+
 }
 .nav-link a {
     color: black;
