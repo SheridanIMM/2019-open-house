@@ -74,8 +74,8 @@ include_once('key.php');
 
     <!-- SCRIPT -->
     <script src="js/particle.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=<?= $key ?>"></script>
     <script src="js/map.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=<?= $key ?>&callback=initMap" async defer></script>
 </body>
 
 </html>
