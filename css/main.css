@@ -97,6 +97,8 @@ p {
 
 .title {
     font-size: 2.8125rem;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .subtitle {
@@ -531,6 +533,7 @@ particles-js {
     .title {
         font-size: 3.75rem;
     }
+    
     .subtitle {
         font-size: 3rem;
     }
