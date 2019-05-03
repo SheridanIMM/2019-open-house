@@ -412,7 +412,7 @@ particles-js {
     font-size: 3rem;
     color: #121d31;
     display: block;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 .checked {
     color: #d8d8d8 !important;
@@ -438,7 +438,7 @@ particles-js {
   #nav {
       position: fixed;
       top: 0;
-      display: inline;
+      display: inline-block;
       width: auto;
       /* padding: 10px; */
   }
