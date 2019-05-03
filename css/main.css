@@ -420,7 +420,7 @@ particles-js {
     margin-bottom: 5.1%;
     margin-top: 4.5%;
     /* width: 159.6px; */
-    height: 33.8px;
+    /* height: 33.8px; */
     text-transform: uppercase;
 }
 
@@ -533,7 +533,7 @@ particles-js {
     .title {
         font-size: 3.75rem;
     }
-    
+
     .subtitle {
         font-size: 3rem;
     }
