@@ -300,7 +300,7 @@ input[type=checkbox] { /* uncomment this for testing checkbox state */
     text-transform: uppercase;
     font-weight: 500;
     font-size: 4.5625rem;
-    font-family: 'Roboto Medium';
+    /* font-family: 'Roboto Medium'; */
     margin-bottom: 5%;
 }
 /* allows content to show on particle background */
