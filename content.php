@@ -8,7 +8,7 @@ include_once('process-filter_tags.php');
     <div class="container top-banner">
         <div class="row text-center">
             <div class="col-sm-12">
-                <h1 class="title">Digitize</h1>
+                <h1 class="title">WIRED</h1>
             </div>
         </div>
         <div class="row text-center">
