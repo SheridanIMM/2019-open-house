@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.3
+-- version 4.8.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 30, 2019 at 06:09 AM
--- Server version: 10.1.36-MariaDB
--- PHP Version: 5.6.38
+-- Generation Time: May 03, 2019 at 02:28 AM
+-- Server version: 10.1.37-MariaDB
+-- PHP Version: 7.3.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -54,7 +54,7 @@ INSERT INTO `openhouse` (`id`, `name`, `keyword1`, `keyword2`, `keyword3`, `keyw
 (4, 'Ngoc To', '#Front-End Dev', '#Back-End Dev', '#UI', '#UX', 'https://www.linkedin.com/in/ngoc-to', 'http://ngocto.com/', 'https://twitter.com/to_baongoc1308', 'A problem solving lover with an eye for detail and a passion to create practical design wants to make the best use of her skills in a Full Stack Development environment.', 'jade.png', 'twitter'),
 (5, 'Gabriel Marza', '#UI ', '#Visual Design', '#Content Strgy', '#AR/VR', 'https://www.linkedin.com/in/gabrielmarza/', 'http://gabrielmarza.com/', 'https://www.instagram.com/gabriel.marza/', 'Gabriel is obsessed with incorporating design solutions with accessibility in mind. He has years of experience with graphic design, film making, sound design and has a passion for 3D art, both technical and artistic in nature. Discovering ways to make virtual experiences more immersive is his lifelong goal.', 'gabriel.png', 'instagram'),
 (6, 'Angela Chung', '#UX', '#UI', '#Visual Design', '', 'https://www.linkedin.com/in/angelamchung/', 'https://www.angelachung.me/', 'https://twitter.com/_angelachung', 'Angela is a UX/UI designer with a background in Illustration and Graphic design. Her skills include prototyping, wire-framing, illustration and trying to be funny. She\'s a fan of iced coffee, good storytelling and would love to be friends with your dog.', 'angela.png', 'twitter'),
-(7, 'Christopher Browne', '#Front-End Dev', '#Back-End Dev', '#UI', '#UX', 'www.linkedin.com/in/christopher-ric-browne', 'http://chris-ric-browne.com/', 'https://www.instagram.com/chris.zero/', 'Chris is a Full Stack Developer with skills in both front and back end development, ', 'chris.png', 'instagram'),
+(7, 'Christopher Browne', '#Front-End Dev', '#Back-End Dev', '#UI', '#UX', 'www.linkedin.com/in/christopher-ric-browne', 'http://chris-ric-browne.com/', 'https://www.instagram.com/chris.zero/', 'Chris is a Front End Developer who has an interest in UX/UI design and loves to solve problems. He has a background in Computer Science and you can find laughing at random memes online.', 'chris.png', 'instagram'),
 (8, 'Wren Chen', '#Front-End Dev', '#UX', '#Content Strgy', '#Visual Design', 'https://www.linkedin.com/in/wrenzchen/', 'http://wrenchen.com/', 'https://twitter.com/wrenzchen', 'Wren is actually three birds in a trench coat. The first is adept at storytelling and content creation, the second at visual branding, photography, UX, and graphic design, and the third at making things that work using HTML5, CSS, JavaScript, and PHP.', 'wren.png', 'twitter'),
 (9, 'Jaime Convery', '#Front-End Dev', '#Back-End Dev', '#UI', '', 'https://www.linkedin.com/in/jaimeconvery/', 'http://jaimeconvery.com/', 'https://twitter.com/jaime6041', 'Jaime is an aspiring Front-End Developer passionate about developing user-friendly and responsive websites for web and mobile. Experience with HTML5, CSS3, JavaScript, and JQuery to design and develop dynamic content.', 'jaime.png', 'twitter'),
 (10, 'Karen Four', '#Project Mngt', '#Content Strgy', '#Back-End Dev', '#AR/VR', 'linkedin.com/in/karenfour', 'http://www.karen4.com', 'https://twitter.com/karenfour', 'Karen is a communicator-turned-technologist, combining hands-on web development skills with organizational and communication skills. Proven track record of delivering high-quality interactive digital products (website, intranet, mobile app, multimedia), on-time and within budget. ', 'karen.png', 'twitter'),

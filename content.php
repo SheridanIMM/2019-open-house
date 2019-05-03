@@ -8,7 +8,7 @@ include_once('process-filter_tags.php');
     <div class="container top-banner">
         <div class="row text-center">
             <div class="col-sm-12">
-                <h1 class="title">Innovative</h1>
+                <h1 class="title">Digitize</h1>
             </div>
         </div>
         <div class="row text-center">
@@ -30,7 +30,7 @@ include_once('process-filter_tags.php');
             </div>
             <div class="col-lg-8 col-sm-12">
                 <h3>What is IMM?</h3>
-                <p>The Interactive Multimedia Management program from Sheridan College is a creative, technical, and fast-paced program. The students cover topics ranging from full-stack web development, to user interface / user experience, digital media, and project management. Join the graduating class this May for drinks, food, and to see demonstrations of the wonderful work achieved this year!</p>
+                <p>The future is WIRED. Come experience the latest in interactivity. A technology charged graduate show crafted by Sheridan College's Interactive Media Management students and hosted by the award winning Jam3 Design & Experience Agency in Toronto's booming tech sector, May 9th 2019, 6-9PM. 325 Adelide St.W.</p>
             </div>
         </div>
     </div>
