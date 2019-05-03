@@ -13,17 +13,17 @@ include_once('process-filter_tags.php');
     <ul class="navbar-collapse-tags-center">
         <li>
             <a class="nav-link" href="#top">
-                <i class="fas fa-home"></i> <span class="navbar-tags">Home<span>
+                <i class="fas fa-home"></i> <span class="navbar-tags">Home</span>
             </a>
         </li>
         <li>
             <a class="nav-link" href="#list">
-                <i class="fas fa-users"></i><span class="navbar-tags">Student Work<span>
+                <i class="fas fa-users"></i><span class="navbar-tags">Student Work</span>
             </a>
         </li>
         <li>
             <a class="nav-link" href="#map">
-                <i class="fas fa-map-marker-alt"></i><span class="navbar-tags"> Location<span>
+                <i class="fas fa-map-marker-alt"></i><span class="navbar-tags"> Location</span>
             </a>
         </li>
     </ul>

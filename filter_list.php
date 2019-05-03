@@ -30,16 +30,16 @@ if ($total_rows > 0) {
 	foreach ($results as $result) {
 		$output .= '
                 <li>
-                <a class="modal-tag" href="#" data-target="#modalIMG' . $result['id'] . '" data-toggle="modal" class="color-gray-darker c6 td-hover-none">
-<div class="student-outline">' .  $result["name"] . '</div>
-        <div class="student-keyword">
-            <span class="student-keyword-mobile">' . $result["keyword1"] . '</span>
-            <span class="student-keyword-mobile">' . $result["keyword2"] . '</span>
-            <span class="student-keyword-mobile">' . $result["keyword3"] . '</span>
-            <span class="student-keyword-mobile">' . $result["keyword4"] . '</span>
-        </div>
-        </a>
-        </li>';
+					<a class="modal-tag color-gray-darker c6 td-hover-none" href="#" data-target="#modalIMG' . $result['id'] . '" data-toggle="modal">
+					<div class="student-outline">' .  $result["name"] . '</div>
+					<div class="student-keyword">
+						<span class="student-keyword-mobile">' . $result["keyword1"] . '</span>
+						<span class="student-keyword-mobile">' . $result["keyword2"] . '</span>
+						<span class="student-keyword-mobile">' . $result["keyword3"] . '</span>
+						<span class="student-keyword-mobile">' . $result["keyword4"] . '</span>
+					</div>
+					</a>
+				</li>';
 	}
 	$output .= '</ul>';
 }

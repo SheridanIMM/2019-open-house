@@ -55,7 +55,7 @@ include_once('process-filter_tags.php');
             // var_dump($results);
             ?>
             <li>
-                <a class="modal-tag" href="#" data-target="#modalIMG<?= $result["id"] ?>" data-toggle="modal" class="color-gray-darker c6 td-hover-none">
+                <a class="modal-tag color-gray-darker c6 td-hover-none" href="#" data-target="#modalIMG<?= $result["id"] ?>" data-toggle="modal">
                     <div class="student-outline"><?= str_replace('"', '&#34;', $result['name']) ?></div>
                     <div class="student-keyword">
                         <span class="student-keyword-mobile"><?= $result["keyword1"] ?></span>
@@ -74,13 +74,13 @@ include_once('process-filter_tags.php');
 <!----------------------------------Pop Up-------------------------------------->
 
 <?php foreach ($results as $result) { ?>
-    <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG<?= $result["id"] ?>" role="dialog" tabindex="-1">
+    <div aria-hidden="true" class="modal fade" id="modalIMG<?= $result["id"] ?>" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
 
                 <div class="modal-body popup-text">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden=" true">&times;</span>
+                        <span aria-hidden="true">&times;</span>
                     </button>
                     <img class="d-none d-lg-block" src="img/WEB/<?= $result["images"] ?>" alt="<?= str_replace('"', '&#34;', $result['name']) ?> profile image" style="width:100%">
                     <img class="d-block d-lg-none" src="img/MOBILE/<?= $result["images"] ?>" alt="<?= str_replace('"', '&#34;', $result['name']) ?> profile image" style="width:100%">
@@ -92,9 +92,7 @@ include_once('process-filter_tags.php');
                             <li><?= $result["keyword3"] ?></li>
                             <li><?= $result["keyword4"] ?></li>
                         </ul>
-                        <button class="btn">
-                            <a class="btn-no-dec" href="<?= $result["portfolioURL"] ?>" target="_blank">View Portfolio</a>
-                        </button>
+                        <a class="btn btn-no-dec" href="<?= $result["portfolioURL"] ?>" target="_blank">View Portfolio</a>
                         <div class="social-icons">
                             <a href="<?= $result["socialMediaLink"] ?>" target="_blank">
                                 <i class="fab fa-<?= $result["tags"] ?>"></i>

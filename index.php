@@ -50,7 +50,7 @@ include_once('key.php');
     <header>
         <!-- Put your header here -->
     </header>
-    <div id="particles-js" id="top"></div>
+    <div id="particles-js"></div>
     <nav id="nav" class="navbar sticky-top navbar-expand-lg navbar-dark">
         <?php
         include_once('nav.php');
