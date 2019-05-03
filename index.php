@@ -64,7 +64,7 @@ include_once('key.php');
             ?>
         </div>
     </main>
-    <div class="container" id="map"></div>
+    <a href="https://www.google.com/maps/dir/43.7700066,-79.2563908/jam3/@43.7097993,-79.3981946,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x882b3504121db61b:0x87154c3940f8bd34!2m2!1d-79.3924722!2d43.6471789" target="_blank"><div class="container" id="map"></div></a>
 
     <!-- SCRIPT -->
     <script src="js/particle.js"></script>

@@ -20,17 +20,21 @@ include_once('process-filter_tags.php');
     <div class="container">
         <div class="row info">
             <div class="col-lg-4 col-sm-12">
+                <p class="details">Hosted by <span>Jam3</span></p>
                 <p class="details"><i class="fas fa-graduation-cap icon"></i>Sheridan College</p>
                 <p class="details"><i class="fas fa-calendar-alt icon"></i>May 9th from 6 - 9 PM</p>
-                <p class="details"><i class="fas fa-map-marker-alt icon"></i>Hosted by <span>Jam3</span></p>
-                <ul class="location">
-                    <li>325 Adelaide Street West, Toronto</li>
+                <p class="details"><ul class="location">
+                    <a href="https://www.google.com/maps/dir/43.7700066,-79.2563908/jam3/@43.7097993,-79.3981946,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x882b3504121db61b:0x87154c3940f8bd34!2m2!1d-79.3924722!2d43.6471789" target="_blank">
+                    <li>  <i class="fas fa-map-marker-alt icon"></i> 325 Adelaide Street West, Toronto</li>
+                    </a>
                 </ul>
+                </p>
+
                 <!-- <p class="location"></p> -->
             </div>
             <div class="col-lg-8 col-sm-12">
                 <h3>What is IMM?</h3>
-                <p>The future is WIRED. Come experience the latest in interactivity. A technology charged graduate show crafted by Sheridan College's Interactive Media Management students and hosted by the award winning Jam3 Design & Experience Agency in Toronto's booming tech sector, May 9th 2019, 6-9PM. 325 Adelide St.W.</p>
+                <p>The Future is WIRED. Come experience the latest in interactivity. A technology charged graduate show crafted by Sheridan College's Interactive Media Management students and hosted by the award winning Jam3 Design & Experience Agency in Toronto's booming tech sector.</p>
             </div>
         </div>
     </div>
