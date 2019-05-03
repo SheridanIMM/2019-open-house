@@ -185,11 +185,11 @@ p.details:last-of-type {
 /* when closed */
 .navbar-collapse {
  position: relative;
- height: 0px;
+ /* height: 0px; */
  overflow: hidden;
--moz-transition: height 30ms ease;
--o-transition: height 30ms ease;
-transition: height 30ms ease;
+-moz-transition: all 120ms ease;
+-o-transition: all 120ms ease;
+transition: all 120ms ease;
 }
 
 /* when open */
@@ -204,10 +204,10 @@ transition: height 30ms ease;
   background-color: rgb(0,0,0); /* Black fallback color */
   background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
   overflow-x: hidden; /* Disable horizontal scroll */
-  -webkit-transition: all 50ms ease;
-  -moz-transition: all 50ms ease;
-  -o-transition: all 50ms ease;
-  transition: all 50ms ease;
+  -webkit-transition: all 120ms ease;
+  -moz-transition: all 120ms ease;
+  -o-transition: all 120ms ease;
+  transition: all 120ms ease;
 
   /*transition: 0.5s;  0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
