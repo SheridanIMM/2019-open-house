@@ -7,7 +7,7 @@
 }
 
 html {
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 1.15;
     overflow-y: scroll;
     scroll-behavior: smooth;
@@ -21,7 +21,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
     margin: 0;
-    font-family: "Roboto", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.69;
