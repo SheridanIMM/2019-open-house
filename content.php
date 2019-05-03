@@ -33,8 +33,8 @@ include_once('process-filter_tags.php');
                 <!-- <p class="location"></p> -->
             </div>
             <div class="col-lg-8 col-sm-12">
-                <h3>What is IMM?</h3>
-                <p>The Future is WIRED. Come experience the latest in interactivity. A technology charged graduate show crafted by Sheridan College's Interactive Media Management students and hosted by the award winning Jam3 Design & Experience Agency in Toronto's booming tech sector.</p>
+                <h3>The Future is WIRED.</h3>
+                <p>Come experience the latest in interactivity. A technology charged graduate show crafted by Sheridan College's Interactive Media Management students and hosted by the award winning Jam3 Design & Experience Agency in Toronto's booming tech sector.</p>
             </div>
         </div>
     </div>
