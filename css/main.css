@@ -384,8 +384,8 @@ particles-js {
 .modal-body .close {
     position: absolute;
     right: 5%;
-    width: 29.1px;
-    height: 29.1px;
+    /* width: 29.1px;
+    height: 29.1px; */
     color: #707070;
 }
 
