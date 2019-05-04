@@ -9,6 +9,7 @@ include_once('key.php');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <title>IMM 2019 Grad Show</title>
 
     <!-- for Google -->
