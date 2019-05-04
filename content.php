@@ -43,7 +43,7 @@ include_once('process-filter_tags.php');
 
 
 <!--------------------------------Filter------------------------------------------------->
-<div class="text-center filter-desktop d-none d-lg-block">
+<div id="list" class="text-center filter-desktop d-none d-lg-block">
     <span class="filter-tag">Filter<i class="fas fa-filter"></i></span>
     <?php
     foreach ($results1 as $result) {
@@ -53,7 +53,7 @@ include_once('process-filter_tags.php');
 <!---------------------------------------------------------------------------------------->
 
 
-<div id="list" class="container student-list">
+<div class="container student-list">
     <h2 class="hidden">Student list</h2> <!-- please put class hidden with font-size: 0 later on to hide the title -->
     <ul class="text-center">
         <?php foreach ($results as $result) {

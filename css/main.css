@@ -640,3 +640,9 @@ particles-js {
         margin-bottom: 5%;
     }
  }
+
+@media (min-width: 1920px) {
+    .filter-desktop {
+        margin-top: 10%;
+    }
+}
