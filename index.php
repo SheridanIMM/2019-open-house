@@ -10,8 +10,40 @@ include_once('key.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>IMM 2019 Grad Show</title>
-    <!-- needs more meta tags -->
-    <!-- Roboto font -->
+
+    <!-- for Google -->
+    <meta name="description" content="A technology charged graduate show crafted by Sheridan College's Interactive Media Management students and hosted by the award winning Jam3 Design & Experience Agency in Toronto's booming tech sector." />
+    <meta name="keywords" content="Technology, Design, Jam3, Sheridan College, Graduate Show" />
+    <meta name="author" content="Interactive Media Management" />
+
+    <!-- for Facebook -->
+    <meta property="og:title" content="Sheridan College's Interactive Media Management Grad Show Hosted by Jam3" />
+    <meta property="og:url" content="http://imm.sheridanc.on.ca/openhouse/2019/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="A technology charged graduate show crafted by Sheridan College's Interactive Media Management students and hosted by the award winning Jam3 Design & Experience Agency in Toronto's booming tech sector." />
+    <meta property="og:image" content="http://imm.sheridanc.on.ca/openhouse/2019/img/facebookbanner.jpg" /> <!-- Facebook recommended: 1200 x 630 - ideal: 1200 x 1200 square image -->
+
+
+    <!-- for Twitter -->
+    <meta name="twitter:card" content="Sheridan College's Interactive Media Management Grad Show Hosted By Jam3" />
+    <meta name="twitter:title" content="Sheridan College's Interactive Media Management Grad Show" />
+    <meta name="twitter:description" content="A technology charged graduate show crafted by Sheridan College's Interactive Media Management students and hosted by the award winning Jam3 Design & Experience Agency in Toronto's booming tech sector." />
+    <meta name="twitter:url" content="http://imm.sheridanc.on.ca/openhouse/2019/" />
+    <meta name="twitter:image" content="http://imm.sheridanc.on.ca/openhouse/2019/img/twitterbanner.jpg" />
+    <!-- Images for the Twitter Card should be at least 280px in width, and at least 150px in height. Image must be less than 1MB in size. Ideal is 1,024 x 512 -->
+
+    <!--[if IE]>
+        	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    	<![endif]-->
+
+    <!--[if lt IE 9]>
+		    <script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
+		    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- css3-mediaqueries.js for IE less than 9 -->
+    <!--[if lt IE 9]>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
 
 
     <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet"> -->
@@ -34,16 +66,6 @@ include_once('key.php');
     <link rel="stylesheet" href="css/main.css">
     <script src="js/main.js"></script>
 
-
-    <!-- html5.js for IE less than 9 -->
-    <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <!-- css3-mediaqueries.js for IE less than 9 -->
-    <!--[if lt IE 9]>
-        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-    <![endif]-->
 </head>
 
 <body>
