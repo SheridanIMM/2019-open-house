@@ -65,7 +65,6 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.69;
-    /* padding: 38.4px; added padding */
     color: #d8d8d8;
     text-align: left;
     background-color: #000020;
@@ -93,8 +92,8 @@ p {
     font-size: 0;
 }
 
-.landing-screen{
-  margin-top: 185.7px; /* should it be 185.7px not 55%? */
+.landing-screen {
+    margin-top: 185.7px;
     padding: 0 26px;
 }
 
@@ -145,7 +144,6 @@ p.details:last-of-type {
     position: fixed;
     top: 0;
     width: 100%;
-    /* padding: 10px; */
 }
 .navbar {
     padding: 0;
@@ -168,7 +166,6 @@ p.details:last-of-type {
     position: absolute;
     top: 0.1rem;
     left: 75%; /* changed the first hamburger's left offset to fix on mobile devices */
-    /* z-index: 2; */
     opacity: 1;
     margin: 0 26px; /* - added this so the buttons are not right up against the edge - don't move or nav menus shift */
 }
@@ -185,7 +182,6 @@ p.details:last-of-type {
 /* when closed */
 .navbar-collapse {
  position: relative;
- /* height: 0px; */
  overflow: hidden;
 -moz-transition: all 120ms ease;
 -o-transition: all 120ms ease;
@@ -194,7 +190,6 @@ transition: all 120ms ease;
 
 /* when open */
 .navbar-collapse.show {
-  /* Height & width depends on how you want to reveal the overlay (see JS below) */
   height: 100%;
   width: 0;
   z-index: 999; /* Sit on top */
@@ -208,8 +203,6 @@ transition: all 120ms ease;
   -moz-transition: all 120ms ease;
   -o-transition: all 120ms ease;
   transition: all 120ms ease;
-
-  /*transition: 0.5s;  0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
 
 .navbar-collapse ul li {
@@ -270,7 +263,7 @@ transition: all 120ms ease;
 /*Nav Styling End*/
 
 /*Filter*/
-input[type=checkbox] { /* uncomment this for testing checkbox state */
+input[type=checkbox] {
     display: none;
 }
 
@@ -317,7 +310,6 @@ input[type=checkbox] { /* uncomment this for testing checkbox state */
     text-transform: uppercase;
     font-weight: 500;
     font-size: 4.5625rem;
-    /* font-family: 'Roboto Medium'; */
     margin-bottom: 5%;
 }
 /* allows content to show on particle background */
@@ -331,11 +323,8 @@ input[type=checkbox] { /* uncomment this for testing checkbox state */
     font-size: 1.875rem;
     line-height: 1.23;
     padding-top: 35px;
-    /* -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s; */
 }
+
 .student-outline{
     color: white;
 }
@@ -361,21 +350,6 @@ text-align: left;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
-/* old particle css
-particles-js {
-    /* position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #000020;
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-*/
 
 .modal-dialog {
     top: 18%;
@@ -434,8 +408,6 @@ particles-js {
     color: #ffffff;
     margin-bottom: 5.1%;
     margin-top: 4.5%;
-    /* width: 159.6px; */
-    /* height: 33.8px; */
     text-transform: uppercase;
 }
 
@@ -450,13 +422,12 @@ particles-js {
     color: #ffffff;
     width: 100%;
     width: 319.3px;
-    height: 190px;  /* Can't be a fixed height/width - descriptions are too long -- fixed */
+    height: 190px; 
 }
 
 .box p {
     padding: 9.6px 10px 18.6px 17px;
-    /* width: 275px; */
-    height: 70px; /* descriptions are too long -- fixed */
+    height: 70px; 
 }
 
 .social-icons{
@@ -469,8 +440,8 @@ particles-js {
     font-size: 3rem;
     color: #121d31;
     display: block;
-    /* margin-bottom: 10px; */
 }
+
 .checked {
     color: #d8d8d8 !important;
 }
@@ -497,7 +468,6 @@ particles-js {
       top: 0;
       display: inline-block;
       width: auto;
-      /* padding: 10px; */
   }
     .navbar-tags {
     display: none;
@@ -607,13 +577,6 @@ particles-js {
         top: 35.4%;
         bottom: 41.9%;
         left: 0;
-        /* width: 287px; descriptions don't fit inside the box -- fixed */
-        /* height: 190px; */
-    }
-
-    .box p {
-        /* width: 253px; */
-        /* height: 69px; */
     }
 
     .social-icons {
@@ -625,13 +588,14 @@ particles-js {
         margin-right: 5px;
     }
 
-    .filter-desktop { /* not in the right place on LAPTOP */
+    .filter-desktop { 
         position: relative;
         display: inline-block;
         font-weight: 500;
         margin-right: 296.3px;
         margin-left: 352.5px;
-        margin-top: 26%;
+        margin-top: 10%;
+        padding-top: 20px;
     }
     #map {
         color: black;
@@ -641,8 +605,8 @@ particles-js {
     }
  }
 
-@media (min-width: 1920px) {
+/* @media (min-width: 1920px) {
     .filter-desktop {
         margin-top: 10%;
     }
-}
+} */
