@@ -23,11 +23,12 @@ include_once('process-filter_tags.php');
                 <p class="details">Hosted by <span>Jam3</span></p>
                 <p class="details"><i class="fas fa-graduation-cap icon"></i>Sheridan College</p>
                 <p class="details"><i class="fas fa-calendar-alt icon"></i>May 9th from 6 - 9 PM</p>
-                <p class="details"><ul class="location">
-                    <a href="https://www.google.com/maps/dir/43.7700066,-79.2563908/jam3/@43.7097993,-79.3981946,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x882b3504121db61b:0x87154c3940f8bd34!2m2!1d-79.3924722!2d43.6471789" target="_blank">
-                    <li>  <i class="fas fa-map-marker-alt icon"></i> 325 Adelaide Street West, Toronto</li>
-                    </a>
-                </ul>
+                <p class="details">
+                    <ul class="location">
+                        <a href="https://www.google.com/maps/place/Jam3/@43.6471789,-79.3946662,17z/data=!3m1!4b1!4m5!3m4!1s0x882b3504121db61b:0x87154c3940f8bd34!8m2!3d43.6471789!4d-79.3924722" target="_blank">
+                            <li> <i class="fas fa-map-marker-alt icon"></i> 325 Adelaide Street West, Toronto</li>
+                        </a>
+                    </ul>
                 </p>
 
                 <!-- <p class="location"></p> -->

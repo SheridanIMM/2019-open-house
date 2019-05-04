@@ -87,7 +87,7 @@ include_once('key.php');
             ?>
         </div>
     </main>
-    <a href="https://www.google.com/maps/dir/43.7700066,-79.2563908/jam3/@43.7097993,-79.3981946,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x882b3504121db61b:0x87154c3940f8bd34!2m2!1d-79.3924722!2d43.6471789" target="_blank">
+    <a href="https://www.google.com/maps/place/Jam3/@43.6471789,-79.3946662,17z/data=!3m1!4b1!4m5!3m4!1s0x882b3504121db61b:0x87154c3940f8bd34!8m2!3d43.6471789!4d-79.3924722" target="_blank">
         <div class="container img-fluid">
             <div class="col-12" id="map">
 
