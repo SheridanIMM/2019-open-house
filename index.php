@@ -18,7 +18,7 @@ include_once('key.php');
     <meta name="author" content="Interactive Media Management" />
 
     <!-- for Facebook -->
-    <meta property="og:title" content="Sheridan College's Interactive Media Management Grad Show Hosted by Jam3" />
+    <meta property="og:title" content="Sheridan College's Interactive Media Management Grad Show 2019" />
     <meta property="og:url" content="http://imm.sheridanc.on.ca/openhouse/2019/" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="A technology charged graduate show crafted by Sheridan College's Interactive Media Management students and hosted by the award winning Jam3 Design & Experience Agency in Toronto's booming tech sector." />
@@ -26,7 +26,7 @@ include_once('key.php');
 
 
     <!-- for Twitter -->
-    <meta name="twitter:card" content="Sheridan College's Interactive Media Management Grad Show Hosted By Jam3" />
+    <meta name="twitter:card" content="Sheridan College's Interactive Media Management Grad Show 2019" />
     <meta name="twitter:title" content="Sheridan College's Interactive Media Management Grad Show" />
     <meta name="twitter:description" content="A technology charged graduate show crafted by Sheridan College's Interactive Media Management students and hosted by the award winning Jam3 Design & Experience Agency in Toronto's booming tech sector." />
     <meta name="twitter:url" content="http://imm.sheridanc.on.ca/openhouse/2019/" />
