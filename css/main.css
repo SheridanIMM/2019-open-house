@@ -330,7 +330,7 @@ input[type=checkbox] {
 }
 .student-keyword{
   color: #707070;
-  font-size: 1rem;
+  font-size: 1.25rem;
   line-height: 1.2;
 }
 
@@ -541,10 +541,6 @@ text-align: left;
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color:#000020;
         font-size: 6rem;
-    }
-
-    .student-keyword{
-        font-size: 1.25rem;
     }
 
     .student-keyword-mobile{
