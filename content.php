@@ -5,9 +5,9 @@ include_once('process-filter_tags.php');
 ?>
 <!-- Put your main content here -->
 <div class="landing-screen">
-  <div class="container text-center">
-    <img class="logo" src="img/wiredlogo1rotated2.png" alt="logo" width="130" height="130" />
-  </div>
+    <div class="container text-center">
+        <img class="logo" src="img/wiredlogo1rotated2.png" alt="logo" width="130" height="130" />
+    </div>
     <div class="container top-banner">
         <div class="row text-center">
             <div class="col-sm-12">
@@ -46,7 +46,7 @@ include_once('process-filter_tags.php');
 
 
 <!--------------------------------Filter------------------------------------------------->
-<div id="list" class="text-center filter-desktop d-none d-lg-block">
+<div id="list" class="text-center filter-desktop">
     <span class="filter-tag">Filter<i class="fas fa-filter"></i></span>
     <?php
     foreach ($results1 as $result) {
@@ -56,11 +56,10 @@ include_once('process-filter_tags.php');
 <!---------------------------------------------------------------------------------------->
 
 
-<div class="container student-list">
+<div id="list" class="container student-list">
     <h2 class="hidden">Student list</h2> <!-- please put class hidden with font-size: 0 later on to hide the title -->
     <ul class="text-center">
         <?php foreach ($results as $result) {
-            // var_dump($results);
             ?>
             <li>
                 <a class="modal-tag color-gray-darker c6 td-hover-none" href="#" data-target="#modalIMG<?= $result["id"] ?>" data-toggle="modal">
