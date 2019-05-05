@@ -422,12 +422,12 @@ text-align: left;
     color: #ffffff;
     width: 100%;
     width: 319.3px;
-    height: 190px; 
+    height: 190px;
 }
 
 .box p {
     padding: 9.6px 10px 18.6px 17px;
-    height: 70px; 
+    height: 70px;
 }
 
 .social-icons{
@@ -453,6 +453,9 @@ text-align: left;
     margin-bottom: 0;
 
 }
+.logo{
+  position: relative;
+}
 
 /* MEDIA QUERIES */
 @media (min-width: 768px) {
@@ -463,6 +466,9 @@ text-align: left;
 }
 
 @media (min-width: 992px) {
+  .logo{
+    position: relative;
+  }
   #nav {
       position: fixed;
       top: 0;
@@ -584,7 +590,7 @@ text-align: left;
         margin-right: 5px;
     }
 
-    .filter-desktop { 
+    .filter-desktop {
         position: relative;
         display: inline-block;
         font-weight: 500;

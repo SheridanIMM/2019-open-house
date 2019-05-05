@@ -5,8 +5,9 @@ include_once('process-filter_tags.php');
 ?>
 <!-- Put your main content here -->
 <div class="landing-screen">
-    <!-- <img src="img/wired1.png" alt="logo" width="130" height="130" /> -->
-
+  <div class="container text-center">
+    <img class="logo" src="img/wiredlogo1rotated2.png" alt="logo" width="130" height="130" />
+  </div>
     <div class="container top-banner">
         <div class="row text-center">
             <div class="col-sm-12">
