@@ -47,20 +47,8 @@ include_once('process-filter_tags.php');
 
 </div>
 
-
-<!--------------------------------Filter------------------------------------------------->
-<!-- <div id="list" class="text-center filter-desktop">
-    <span class="filter-tag">Filter<i class="fas fa-filter"></i></span>
-    <?php
-    foreach ($results1 as $result) {
-        ?>
-                        <label class="filter-tag"><input type="checkbox" value="<?= $result["skills"] ?>" /><?= $result["skills"] ?></label> <?php } ?>
-</div> -->
-<!---------------------------------------------------------------------------------------->
-
-
 <div id="list" class="container student-list">
-    <div id="list" class="text-center filter-desktop d-none d-lg-block">
+    <div class="text-center filter-desktop d-none d-lg-block">
         <span class="filter-tag">Filter<i class="fas fa-filter"></i></span>
         <?php
         foreach ($results1 as $result) {
