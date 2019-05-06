@@ -113,7 +113,7 @@ p {
 
 .top-banner {
     margin-top: 2%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .info {
@@ -294,6 +294,10 @@ input[type=checkbox] {
 }
 /*Filter End*/
 
+.chevron {
+    position: relative;
+    transform:rotate(180);
+}
 /* MAIN CONTENT STYLING */
 /* in development, feel free to make changes */
 .student {
@@ -527,6 +531,10 @@ text-align: left;
 
     .subtitle {
         font-size: 3rem;
+    }
+
+    .info {
+        height: auto;
     }
 
     .student-outline { /*Gives student list the outline effect*/
