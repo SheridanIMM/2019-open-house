@@ -120,6 +120,11 @@ p {
     height: 667px; /* added a height to the details */
 }
 
+.loc {
+    position: relative; 
+    padding-bottom: 2%;
+}
+
 p.details:last-of-type {
     margin-bottom: 0;
 }

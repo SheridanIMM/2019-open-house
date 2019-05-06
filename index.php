@@ -94,6 +94,10 @@ include_once('key.php');
             </div>
         </div>
     </a>
+    <div class="container text-center">
+        <p class="details loc">Hosted by <span>Jam3</span> &commat; 325 Adelaide Street West, Toronto</li>
+        </p>
+    </div>
 
     <!-- SCRIPT -->
     <script src="js/particle.js"></script>
