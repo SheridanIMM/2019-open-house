@@ -42,9 +42,9 @@ include_once('process-filter_tags.php');
             </div>
         </div>
     </div>
-    <div class="chevron text-center">
-        <span>&lsaquo;</span>
-    </div>
+
+        <center><span class="chevron text-center">&lsaquo;</span></center>
+
 </div>
 
 

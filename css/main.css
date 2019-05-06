@@ -121,7 +121,7 @@ p {
 }
 
 .loc {
-    position: relative; 
+    position: relative;
     padding-bottom: 2%;
 }
 
@@ -302,9 +302,14 @@ input[type=checkbox] {
 .chevron {
     transform:rotate(-90deg);
     position: relative;
-    width: auto; 
+    width: auto;
     height: auto;
-    
+    font-size: 5rem;
+    display: inline-block;
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari 3-8 */
+    transform: rotate(-90deg);
+
 }
 
 .chevron span {
@@ -535,7 +540,7 @@ text-align: left;
     /* Ensures the front page doesn't contain student name */
     /* .landing-screen {
         height: 70vh;
-        margin-top: 232.7px; /* change to percent? 
+        margin-top: 232.7px; /* change to percent?
     } */
 
     .title {
