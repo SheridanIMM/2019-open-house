@@ -36,14 +36,14 @@ include_once('process-filter_tags.php');
 
                 <!-- <p class="location"></p> -->
             </div>
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-8 col-sm-12 pt-5 pt-lg-0">
                 <h3>The Future is WIRED</h3>
                 <p>Come experience the latest in interactivity. A technology charged graduate show crafted by Sheridan College's Interactive Media Management students and hosted by the award winning Jam3 Design & Experience Agency in Toronto's booming tech sector.</p>
             </div>
         </div>
     </div>
 
-        <center><span class="chevron text-center">&lsaquo;</span></center>
+    <center><span class="chevron text-center">&lsaquo;</span></center>
 
 </div>
 
@@ -54,7 +54,7 @@ include_once('process-filter_tags.php');
     <?php
     foreach ($results1 as $result) {
         ?>
-                <label class="filter-tag"><input type="checkbox" value="<?= $result["skills"] ?>" /><?= $result["skills"] ?></label> <?php } ?>
+                        <label class="filter-tag"><input type="checkbox" value="<?= $result["skills"] ?>" /><?= $result["skills"] ?></label> <?php } ?>
 </div> -->
 <!---------------------------------------------------------------------------------------->
 
