@@ -42,24 +42,31 @@ include_once('process-filter_tags.php');
             </div>
         </div>
     </div>
-    <div class="container text-center">
-        <span class="chevron">&lsaquo;</span>
+    <div class="chevron text-center">
+        <span>&lsaquo;</span>
     </div>
 </div>
 
 
 <!--------------------------------Filter------------------------------------------------->
-<div id="list" class="text-center filter-desktop">
+<!-- <div id="list" class="text-center filter-desktop">
     <span class="filter-tag">Filter<i class="fas fa-filter"></i></span>
     <?php
     foreach ($results1 as $result) {
         ?>
-        <label class="filter-tag"><input type="checkbox" value="<?= $result["skills"] ?>" /><?= $result["skills"] ?></label> <?php } ?>
-</div>
+                <label class="filter-tag"><input type="checkbox" value="<?= $result["skills"] ?>" /><?= $result["skills"] ?></label> <?php } ?>
+</div> -->
 <!---------------------------------------------------------------------------------------->
 
 
 <div id="list" class="container student-list">
+    <div id="list" class="text-center filter-desktop d-none d-lg-block">
+        <span class="filter-tag">Filter<i class="fas fa-filter"></i></span>
+        <?php
+        foreach ($results1 as $result) {
+            ?>
+            <label class="filter-tag"><input type="checkbox" value="<?= $result["skills"] ?>" /><?= $result["skills"] ?></label> <?php } ?>
+    </div>
     <h2 class="hidden">Student list</h2> <!-- please put class hidden with font-size: 0 later on to hide the title -->
     <ul class="text-center">
         <?php foreach ($results as $result) {

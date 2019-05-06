@@ -19,18 +19,18 @@ include_once('key.php');
 
     <!-- for Facebook -->
     <meta property="og:title" content="Sheridan College's Interactive Media Management Grad Show 2019" />
-    <meta property="og:url" content="http://imm.sheridanc.on.ca/openhouse/2019/" />
+    <meta property="og:url" content="http://imm.sheridanc.on.ca/openhouse/" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="A technology charged graduate show crafted by Sheridan College's Interactive Media Management students and hosted by the award winning Jam3 Design & Experience Agency in Toronto's booming tech sector." />
-    <meta property="og:image" content="http://imm.sheridanc.on.ca/openhouse/2019/img/facebookbanner.jpg" /> <!-- Facebook recommended: 1200 x 630 - ideal: 1200 x 1200 square image -->
+    <meta property="og:image" content="http://imm.sheridanc.on.ca/openhouse/img/facebookbanner.jpg" /> <!-- Facebook recommended: 1200 x 630 - ideal: 1200 x 1200 square image -->
 
 
     <!-- for Twitter -->
     <meta name="twitter:card" content="Sheridan College's Interactive Media Management Grad Show 2019" />
     <meta name="twitter:title" content="Sheridan College's Interactive Media Management Grad Show" />
     <meta name="twitter:description" content="A technology charged graduate show crafted by Sheridan College's Interactive Media Management students and hosted by the award winning Jam3 Design & Experience Agency in Toronto's booming tech sector." />
-    <meta name="twitter:url" content="http://imm.sheridanc.on.ca/openhouse/2019/" />
-    <meta name="twitter:image" content="http://imm.sheridanc.on.ca/openhouse/2019/img/twitterbanner.jpg" />
+    <meta name="twitter:url" content="http://imm.sheridanc.on.ca/openhouse/" />
+    <meta name="twitter:image" content="http://imm.sheridanc.on.ca/openhouse/img/twitterbanner.jpg" />
     <!-- Images for the Twitter Card should be at least 280px in width, and at least 150px in height. Image must be less than 1MB in size. Ideal is 1,024 x 512 -->
 
     <!--[if IE]>

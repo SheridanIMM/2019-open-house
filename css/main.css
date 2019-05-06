@@ -300,9 +300,17 @@ input[type=checkbox] {
 /*Filter End*/
 
 .chevron {
+    transform:rotate(-90deg);
     position: relative;
-    transform:rotate(180);
+    width: auto; 
+    height: auto;
+    
 }
+
+.chevron span {
+    font-size: 3em;
+}
+
 /* MAIN CONTENT STYLING */
 /* in development, feel free to make changes */
 .student {
@@ -525,10 +533,10 @@ text-align: left;
     }
 
     /* Ensures the front page doesn't contain student name */
-    .landing-screen {
+    /* .landing-screen {
         height: 70vh;
-        margin-top: 232.7px; /* change to percent? */
-    }
+        margin-top: 232.7px; /* change to percent? 
+    } */
 
     .title {
         font-size: 3.75rem;
@@ -609,7 +617,7 @@ text-align: left;
         font-weight: 500;
         margin-right: 296.3px;
         margin-left: 352.5px;
-        margin-top: 26%;
+        margin-top: 10%;
         padding-top: 20px;
     }
     #map {
@@ -622,6 +630,6 @@ text-align: left;
 
 @media (min-width: 1920px) {
     .filter-desktop {
-        margin-top: 10%;
+        /* margin-top: 10%; */
     }
 }
