@@ -332,6 +332,8 @@ input[type=checkbox] {
     font-weight: 500;
     font-size: 4.5625rem;
     margin-bottom: 5%;
+    margin-top: 5%;
+
 }
 /* allows content to show on particle background */
 .student-details{
@@ -619,9 +621,9 @@ text-align: left;
         position: relative;
         display: inline-block;
         font-weight: 500;
-        margin-right: 296.3px;
-        margin-left: 352.5px;
-        margin-top: 10%;
+        /* margin-right: 296.3px; */
+        /* margin-left: 352.5px; */
+        /* margin-top: 10%; */
         padding-top: 20px;
     }
     #map {
