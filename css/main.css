@@ -112,7 +112,7 @@ p {
 }
 
 .top-banner {
-    margin-top: 2%;
+    /* margin-top: 2%; */
     margin-bottom: 5%;
 }
 
@@ -490,8 +490,10 @@ text-align: left;
 
 @media (min-width: 992px) {
   .logo{
-    position: relative;
+    width: 100px;
+    height: 100px;
   }
+  
   #nav {
       position: fixed;
       top: 0;
